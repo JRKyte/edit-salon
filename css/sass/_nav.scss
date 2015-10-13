@@ -1,0 +1,29 @@
+nav {
+  text-align: center;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: #1B1B1B;
+}
+.nav-links {
+  list-style: none;
+}
+.nav-link {
+  display: inline-block;
+  a {
+    display: block;
+    width: 130px;
+    padding: 29px 0;
+    font-family: 'refrigerator-deluxe', sans-serif;
+    text-transform: uppercase;
+    font-weight: normal;
+    font-size: 22px;
+    text-decoration: none;
+    color: #6D6D6D;
+    transition: color 0.3s ease;
+    &:hover, &:focus {
+      color: #B0966C;
+    }
+  }
+}
