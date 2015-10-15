@@ -16,3 +16,26 @@ body {
   color: #6D6D6D;
   padding-top: 80px;
 }
+a {
+  color: #B0966C;
+}
+.row {
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 0 15px;
+  &:after, &:before {
+    content: " ";
+    display: table;
+  }
+  &:after {
+    clear: both;
+  }
+}
+.col-half {
+  width: 50%;
+  float: left;
+  padding: 0 15px;
+}
+.col-half-right {
+  margin-left: 50%;
+}

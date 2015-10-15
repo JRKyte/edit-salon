@@ -25,18 +25,83 @@
     .section-hero
 
     .section-times
-      %h3 Opening times
+      .row
+        %h3 Opening times
+        %table.table-times
+          %tr
+            %th Tuesday
+            %th Wednesday
+            %th Thursday
+            %th Friday
+            %th Saturday
+          %tr
+            %td
+              %div Open - 9:00
+              %div Close - 17:00
+            %td
+              %div Open - 9:00
+              %div Close - 20:00
+            %td
+              %div Open - 9:00
+              %div Close - 20:00
+            %td
+              %div Open - 9:00
+              %div Close - 17:00
+            %td
+              %div Open - 9:00
+              %div Close - 16:00
+
     .section-about
+      .row
+        .col-half.col-half-right
+          %h3 Who we are
+          %p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce efficitur justo eu tortor ultricies, non convallis lacus egestas. Donec bibendum nisi ut efficitur rhoncus. Cras non efficitur velit, vitae finibus elit. Curabitur ornare urna id lorem ultrices fermentum. Ut aliquet dapibus dictum. Duis consectetur quis eros a ornare.
+
+          %p
+            Call us to book:
+            %a{href: ""} 01234 123 456
 
     .section-servicelist
-
+      .row
+        .col-half
+          %h3 Edit Hair
+        .col-half
+          %h3 Edit Nails
     .section-gallery
 
     .section-products
 
     .section-contact
+      .row
+        .col-half.text-right
+          %h3 How to find us
+          %p
+            40 Main Street
+            %br
+            Aughton
+            %br
+            Sheffield
+            %br
+            S26 3XJ
+
+          %p
+            %strong Tel:
+            %a{href: ""} 01234 123 456
+          %p
+            %strong Mob:
+            %a{href: ""} 01234 123 456
 
     .section-footer
+      .row
+        %h3 Follow us on
+        %ul.list-social
+          %li
+            %a{href: ""} Facebook
+          %li
+            %a{href: ""} Instagram
+        %p.small-text
+          Edit Salon - 40 Main Street, Aughton, Sheffield, S26 3XJ - Website by
+          %a{href: ""} JRK Design
 
 
     // Fonts

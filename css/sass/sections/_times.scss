@@ -1,0 +1,30 @@
+.section-times {
+  background-color: #1B1B1B;
+  padding: 80px 0 100px;
+  text-align: center;
+}
+.table-times {
+  font-family: 'refrigerator-deluxe', sans-serif;
+  text-transform: uppercase;
+  width: 100%;
+  font-size: 20px;
+  background: #262626;
+  table-layout: fixed;
+  td:not(:last-child), th:not(:last-child) {
+    border-right: 30px solid #1B1B1B;
+    width: 20%;
+  }
+  th {
+    font-size: 25px;
+    line-height: 25px;
+    font-weight: 300;
+    padding: 30px 0;
+  }
+  td {
+    padding: 20px 0;
+    font-weight: 400;
+    div {
+      padding: 20px 0;
+    }
+  }
+}

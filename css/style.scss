@@ -1,6 +1,13 @@
 @import 'sass/reset';
 @import 'sass/scaffold';
 @import 'sass/type';
+@import 'sass/helpers';
 @import 'sass/nav';
 
-@import 'sass/hero';
+@import 'sass/sections/hero';
+@import 'sass/sections/times';
+@import 'sass/sections/about';
+@import 'sass/sections/servicelist';
+@import 'sass/sections/products';
+@import 'sass/sections/contact';
+@import 'sass/sections/footer';
