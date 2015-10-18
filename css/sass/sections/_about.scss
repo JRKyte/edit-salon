@@ -1,4 +1,13 @@
 .section-about {
   background: #E8E8E8;
-  padding: 60px 0;
+  background-image: url('../images/section-about-bg.jpg');
+  background-repeat: no-repeat;
+  background-position: 0 50%;
+  background-size: contain;
+}
+.section-about__text {
+  background: #E8E8E8;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  padding-left: 50px;
 }

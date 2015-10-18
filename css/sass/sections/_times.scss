@@ -19,6 +19,18 @@
     line-height: 25px;
     font-weight: 300;
     padding: 30px 0;
+    position: relative;
+    &:after {
+      content: " ";
+      display: block;
+      width: 80%;
+      height: 1px;
+      background: #606060;
+      position: absolute;
+      bottom: 0;
+      left: 50%;
+      margin-left: -40%;
+    }
   }
   td {
     padding: 20px 0;

@@ -15,7 +15,7 @@
         %li.nav-link
           %a{href: ""} About us
         %li.nav-link
-          %a{href: ""} Service list
+          %a{href: "", class: "active"} Service list
         %li.nav-link.nav-links__logo
           %img
         %li.nav-link
@@ -53,9 +53,9 @@
 
     .section-about
       .row
-        .col-half.col-half-right
+        .col-half.col-half-right.section-about__text
           %h3 Who we are
-          %p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce efficitur justo eu tortor ultricies, non convallis lacus egestas. Donec bibendum nisi ut efficitur rhoncus. Cras non efficitur velit, vitae finibus elit. Curabitur ornare urna id lorem ultrices fermentum. Ut aliquet dapibus dictum. Duis consectetur quis eros a ornare.
+          %p.paragraph-margin Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce efficitur justo eu tortor ultricies, non convallis lacus egestas. Donec bibendum nisi ut efficitur rhoncus. Cras non efficitur velit, vitae finibus elit. Curabitur ornare urna id lorem ultrices fermentum. Ut aliquet dapibus dictum. Duis consectetur quis eros a ornare.
 
           %p
             Call us to book:
@@ -70,12 +70,23 @@
     .section-gallery
 
     .section-products
-
+      .row
+        %ul.product-list
+          %li
+            %img{src: "images/product-evo.png"}
+          %li
+            %img{src: "images/product-balmain.png"}
+          %li
+            %img{src: "images/product-wella.png"}
+          %li
+            %img{src: "images/product-loreal.png"}
+          %li
+            %img{src: "images/product-moroccan.png"}
     .section-contact
       .row
         .col-half.text-right
           %h3 How to find us
-          %p
+          %p.paragraph-margin
             40 Main Street
             %br
             Aughton
@@ -85,10 +96,10 @@
             S26 3XJ
 
           %p
-            %strong Tel:
+            Tel:
             %a{href: ""} 01234 123 456
           %p
-            %strong Mob:
+            Mob:
             %a{href: ""} 01234 123 456
 
     .section-footer

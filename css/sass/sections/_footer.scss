@@ -8,5 +8,17 @@
   list-style: none;
   li {
     display: inline-block;
+    a {
+      display: block;
+      text-indent: -99999px;
+      width: 44px;
+      height: 44px;
+      background: #6D6D6D;
+      margin: 0 10px;
+      transition: all 0.3s ease;
+      &:hover {
+        transform: translateY(-4px);
+      }
+    }
   }
 }

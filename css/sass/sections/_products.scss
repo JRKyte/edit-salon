@@ -2,3 +2,11 @@
   background: #FFFFFF;
   padding: 50px 0;
 }
+.product-list {
+  list-style: none;
+  text-align: center;
+  li {
+    display: inline-block;
+    width: 19%;
+  }
+}

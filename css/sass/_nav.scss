@@ -5,6 +5,7 @@ nav {
   top: 0;
   left: 0;
   background: #1B1B1B;
+  z-index: 100;
 }
 .nav-links {
   list-style: none;
@@ -14,16 +15,18 @@ nav {
   a {
     display: block;
     width: 130px;
-    padding: 29px 0;
+    padding: 29px 0 25px;
     font-family: 'refrigerator-deluxe', sans-serif;
     text-transform: uppercase;
     font-weight: normal;
     font-size: 22px;
     text-decoration: none;
     color: #6D6D6D;
-    transition: color 0.3s ease;
-    &:hover, &:focus {
+    transition: all 0.3s ease;
+    border-bottom: 4px solid transparent;
+    &:hover, &:focus, &.active {
       color: #B0966C;
+      border-color: #B19669;
     }
   }
 }
