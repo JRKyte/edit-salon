@@ -1,4 +1,13 @@
 .section-contact {
   background: #E8E8E8;
-  padding: 60px 0;
+  background-image: url('../images/map.png');
+  background-repeat: no-repeat;
+  background-position: 100% 50%;
+  background-size: contain;
+}
+.section-contact__text {
+  background: #E8E8E8;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  padding-right: 50px;
 }

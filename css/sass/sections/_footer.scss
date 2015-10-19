@@ -13,7 +13,6 @@
       text-indent: -99999px;
       width: 44px;
       height: 44px;
-      background: #6D6D6D;
       margin: 0 10px;
       transition: all 0.3s ease;
       &:hover {
@@ -21,4 +20,17 @@
       }
     }
   }
+}
+#list-social--facebook,
+#list-social--instagram {
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+#list-social--facebook {
+  background-image: url('../images/facebook.png');
+  background-image: url('../images/facebook.svg'), linear-gradient(transparent, transparent);
+}
+#list-social--instagram {
+  background-image: url('../images/instagram.png');
+  background-image: url('../images/instagram.svg'), linear-gradient(transparent, transparent);
 }

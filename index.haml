@@ -71,20 +71,22 @@
 
     .section-products
       .row
-        %ul.product-list
-          %li
-            %img{src: "images/product-evo.png"}
-          %li
-            %img{src: "images/product-balmain.png"}
-          %li
-            %img{src: "images/product-wella.png"}
-          %li
-            %img{src: "images/product-loreal.png"}
-          %li
-            %img{src: "images/product-moroccan.png"}
+        %img{src: "images/products.png"}
+
+        -# %ul.product-list
+        -#   %li
+        -#     %img{src: "images/product-evo.png"}
+        -#   %li
+        -#     %img{src: "images/product-balmain.png"}
+        -#   %li
+        -#     %img{src: "images/product-wella.png"}
+        -#   %li
+        -#     %img{src: "images/product-loreal.png"}
+        -#   %li
+        -#     %img{src: "images/product-moroccan.png"}
     .section-contact
       .row
-        .col-half.text-right
+        .col-half.text-right.section-contact__text
           %h3 How to find us
           %p.paragraph-margin
             40 Main Street
@@ -107,12 +109,12 @@
         %h3 Follow us on
         %ul.list-social
           %li
-            %a{href: ""} Facebook
+            %a{href: "", id: "list-social--facebook"} Link to Facebook
           %li
-            %a{href: ""} Instagram
+            %a{href: "https://instagram.com/editsalon1/", id: "list-social--instagram"} Link to Instagram
         %p.small-text
           Edit Salon - 40 Main Street, Aughton, Sheffield, S26 3XJ - Website by
-          %a{href: ""} JRK Design
+          %a{href: "http://www.jrk-design.co.uk/"} JRK Design
 
 
     // Fonts
