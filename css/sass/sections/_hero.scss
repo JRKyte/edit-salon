@@ -1,9 +1,12 @@
 .section-hero {
-  height: 720px;
+  height: 250px;
   position: relative;
   background-image: url('../images/hero.jpg');
   background-repeat: no-repeat;
   background-size: cover;
+  @include media-query(sm) {
+    height: 720px;
+  }
   &:after {
     content: "";
     position: absolute;

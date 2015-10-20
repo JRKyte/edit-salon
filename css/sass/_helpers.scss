@@ -2,5 +2,14 @@
   text-align: right;
 }
 .paragraph-margin {
-  margin-bottom: 30px;
+  margin-bottom: 20px;
+  @include media-query(sm) {
+    margin-bottom: 30px;
+  }
+}
+.hidden-sm {
+  display: none;
+  @include media-query(sm) {
+    display: inline-block;
+  }
 }

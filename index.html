@@ -14,19 +14,30 @@
     <nav>
       <ul class='nav-links'>
         <li class='nav-link'>
-          <a href=''>About us</a>
+          <a href='#section-about'>
+            About
+            <span class='hidden-sm'>us</span>
+          </a>
         </li>
         <li class='nav-link'>
-          <a class='active' href=''>Service list</a>
+          <a class='active' href='#section-servicelist'>
+            Service
+            <span class='hidden-sm'>list</span>
+          </a>
         </li>
         <li class='nav-link nav-links__logo'>
           <img>
         </li>
         <li class='nav-link'>
-          <a href=''>Gallery</a>
+          <a href='#section-gallery'>
+            Gallery
+          </a>
         </li>
         <li class='nav-link'>
-          <a href=''>Contact us</a>
+          <a href='#section-contact'>
+            Contact
+            <span class='hidden-sm'>us</span>
+          </a>
         </li>
       </ul>
     </nav>
@@ -67,7 +78,8 @@
         </table>
       </div>
     </div>
-    <div class='section-about'>
+    <div class='section-about' id='section-about'>
+      <div class='section-about__background'></div>
       <div class='row'>
         <div class='col-half col-half-right section-about__text'>
           <h3>Who we are</h3>
@@ -79,7 +91,7 @@
         </div>
       </div>
     </div>
-    <div class='section-servicelist'>
+    <div class='section-servicelist' id='section-servicelist'>
       <div class='row'>
         <div class='col-half'>
           <h3>Edit Hair</h3>
@@ -89,15 +101,16 @@
         </div>
       </div>
     </div>
-    <div class='section-gallery'></div>
+    <div class='section-gallery' id='section-gallery'></div>
     <div class='section-products'>
       <div class='row'>
         <img src='images/products.png'>
       </div>
     </div>
-    <div class='section-contact'>
+    <div class='section-contact' id='section-contact'>
+      <div class='section-contact__map' id='map'></div>
       <div class='row'>
-        <div class='col-half text-right section-contact__text'>
+        <div class='col-half section-contact__text'>
           <h3>How to find us</h3>
           <p class='paragraph-margin'>
             40 Main Street
@@ -146,6 +159,30 @@
         },
         h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
       })(document);
+    </script>
+    <script src='https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js'></script>
+    <script src='js/bootstrap.min.js'></script>
+    <script src='https://maps.googleapis.com/maps/api/js?sensor=false' type='text/javascript'></script>
+    <!-- / Google map -->
+    <script>
+      google.maps.event.addDomListener(window, 'load', init);
+      
+      function init() {
+          var mapOptions = {
+              zoom: 14,
+              center: new google.maps.LatLng(53.373443, -1.317944),
+              styles: [{"featureType":"water","elementType":"geometry","stylers":[{"color":"#e9e9e9"},{"lightness":17}]},{"featureType":"landscape","elementType":"geometry","stylers":[{"color":"#f5f5f5"},{"lightness":20}]},{"featureType":"road.highway","elementType":"geometry.fill","stylers":[{"color":"#ffffff"},{"lightness":17}]},{"featureType":"road.highway","elementType":"geometry.stroke","stylers":[{"color":"#ffffff"},{"lightness":29},{"weight":0.2}]},{"featureType":"road.arterial","elementType":"geometry","stylers":[{"color":"#ffffff"},{"lightness":18}]},{"featureType":"road.local","elementType":"geometry","stylers":[{"color":"#ffffff"},{"lightness":16}]},{"featureType":"poi","elementType":"geometry","stylers":[{"color":"#f5f5f5"},{"lightness":21}]},{"featureType":"poi.park","elementType":"geometry","stylers":[{"color":"#dedede"},{"lightness":21}]},{"elementType":"labels.text.stroke","stylers":[{"visibility":"on"},{"color":"#ffffff"},{"lightness":16}]},{"elementType":"labels.text.fill","stylers":[{"saturation":36},{"color":"#333333"},{"lightness":40}]},{"elementType":"labels.icon","stylers":[{"visibility":"off"}]},{"featureType":"transit","elementType":"geometry","stylers":[{"color":"#f2f2f2"},{"lightness":19}]},{"featureType":"administrative","elementType":"geometry.fill","stylers":[{"color":"#fefefe"},{"lightness":20}]},{"featureType":"administrative","elementType":"geometry.stroke","stylers":[{"color":"#fefefe"},{"lightness":17},{"weight":1.2}]}]
+          };
+      
+          var mapElement = document.getElementById('map');
+          var map = new google.maps.Map(mapElement, mapOptions);
+      
+          var marker = new google.maps.Marker({
+              position: new google.maps.LatLng(53.373443, -1.317944),
+              map: map,
+              title: "We're here!"
+          });
+      }
     </script>
   </body>
 </html>

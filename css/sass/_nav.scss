@@ -14,12 +14,12 @@ nav {
   display: inline-block;
   a {
     display: block;
-    width: 130px;
-    padding: 29px 0 25px;
+    width: 70px;
+    padding: 15px 0 12px;
     font-family: 'refrigerator-deluxe', sans-serif;
     text-transform: uppercase;
     font-weight: normal;
-    font-size: 22px;
+    font-size: 17px;
     text-decoration: none;
     color: #6D6D6D;
     transition: all 0.3s ease;
@@ -27,6 +27,11 @@ nav {
     &:hover, &:focus, &.active {
       color: #B0966C;
       border-color: #B19669;
+    }
+    @include media-query(sm) {
+      font-size: 22px;
+      padding: 29px 0 25px;
+      width: 130px;
     }
   }
 }

@@ -14,7 +14,10 @@ body {
   font-family: 'open-sans', sans-serif;
   background-color: #1B1B1B;
   color: #6D6D6D;
-  padding-top: 80px;
+  padding-top: 48px;
+  @include media-query(sm) {
+    padding-top: 80px;
+  }
 }
 img {
   max-width: 100%;
@@ -35,10 +38,17 @@ a {
   }
 }
 .col-half {
-  width: 50%;
-  float: left;
+  width: 100%;
+  float: none;
   padding: 0 15px;
+  @include media-query(sm) {
+    width: 50%;
+    float: left;
+  }
 }
 .col-half-right {
-  margin-left: 50%;
+  margin-left: 0;
+  @include media-query(sm) {
+    margin-left: 50%;
+  }
 }

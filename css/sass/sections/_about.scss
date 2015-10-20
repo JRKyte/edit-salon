@@ -1,13 +1,32 @@
 .section-about {
+  position: relative;
   background: #E8E8E8;
-  background-image: url('../images/section-about-bg.jpg');
-  background-repeat: no-repeat;
-  background-position: 0 50%;
-  background-size: contain;
 }
 .section-about__text {
   background: #E8E8E8;
-  padding-top: 60px;
-  padding-bottom: 60px;
-  padding-left: 50px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 15px;
+  text-align: center;
+  @include media-query(sm) {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    padding-left: 50px;
+    text-align: left;
+  }
+}
+.section-about__background {
+  display: none;
+  position: absolute;
+  background-image: url('../images/section-about-bg.jpg');
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: cover;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 50%;
+  @include media-query(sm) {
+    display: block;
+  }
 }

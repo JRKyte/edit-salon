@@ -1,4 +1,7 @@
 .section-servicelist {
   background-color: #1B1B1B;
-  padding: 60px 0 80px;
+  padding: 30px 0 50px;
+  @include media-query(sm) {
+    padding: 60px 0 80px;
+  }
 }
