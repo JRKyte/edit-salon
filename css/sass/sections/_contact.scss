@@ -16,14 +16,29 @@
   }
 }
 .section-contact__map {
-  position: absolute;
-  display: none;
+  position: relative;
   background-color: #E5E3DF;
-  top: 0;
-  bottom: 0;
-  right: 0;
-  width: 50%;
+  width: 100%;
+  height: 250px;
   @include media-query(sm) {
-    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    width: 50%;
+    height: auto;
+  }
+}
+
+.section-contact__map--overlay {
+  position: absolute;
+  display: block;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  z-index: 99;
+  @include media-query(sm) {
+    display: none;
   }
 }
