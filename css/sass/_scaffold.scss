@@ -22,6 +22,10 @@ img {
 a {
   color: #B0966C;
 }
+div[id^="section"] {
+  position: absolute;
+  top: -80px;
+}
 .row {
   max-width: 1140px;
   margin: 0 auto;

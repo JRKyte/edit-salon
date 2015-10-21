@@ -29,7 +29,11 @@
     height: auto;
   }
 }
-
+#map {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
 .section-contact__map--overlay {
   position: absolute;
   display: block;

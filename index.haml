@@ -13,25 +13,26 @@
     %nav#navbar
       %ul.nav-links.nav
         %li.nav-link
-          %a{href: "#section-about"}
+          %a{href: "#section-about", class: "scroll"}
             About
             %span.hidden-sm us
         %li.nav-link
-          %a{href: "#section-servicelist"}
+          %a{href: "#section-servicelist", class: "scroll"}
             Service
             %span.hidden-sm list
         %li.nav-link.nav-links__logo
           %img
         %li.nav-link
-          %a{href: "#section-gallery"}
+          %a{href: "#section-gallery", class: "scroll"}
             Gallery
         %li.nav-link
-          %a{href: "#section-contact"}
+          %a{href: "#section-contact", class: "scroll"}
             Contact
             %span.hidden-sm us
     .section-hero
 
     .section-times
+      #section-about
       .row
         %h3 Opening times
         .times-container
@@ -91,7 +92,7 @@
                 %span.hidden-sm Close
                 \- 16:00
 
-    .section-about#section-about
+    .section-about
       .section-about__background
       .row
         .col-half.col-half-right.section-about__text
@@ -102,19 +103,22 @@
             Call us to book:
             %a{href: ""} 01234 123 456
 
-    .section-servicelist#section-servicelist
+    .section-servicelist
+      #section-servicelist
       .row
         .col-half
           %h3 Edit Hair
         .col-half
           %h3 Edit Nails
-    .section-gallery#section-gallery
+    .section-gallery
+      #section-gallery
 
     .section-products
       .row
         %img{src: "images/products.png"}
 
-    .section-contact#section-contact
+    .section-contact
+      #section-contact
       .row
         .col-half.section-contact__text
           %h3 How to find us
@@ -134,7 +138,9 @@
             Mob:
             %a{href: ""} 01234 123 456
 
-      .section-contact__map#map
+      .section-contact__map
+        .section-contact__map--overlay
+        #map
 
     .section-footer
       .row
@@ -191,4 +197,11 @@
           target: '#navbar',
           offset: 90
         })
+      });
+
+      $('.scroll').click(function (e) {
+        e.preventDefault();
+        $("html,body").animate({
+          scrollTop: $(this.hash).offset().top
+        });
       });

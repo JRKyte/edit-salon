@@ -14,13 +14,13 @@
     <nav id='navbar'>
       <ul class='nav-links nav'>
         <li class='nav-link'>
-          <a href='#section-about'>
+          <a class='scroll' href='#section-about'>
             About
             <span class='hidden-sm'>us</span>
           </a>
         </li>
         <li class='nav-link'>
-          <a href='#section-servicelist'>
+          <a class='scroll' href='#section-servicelist'>
             Service
             <span class='hidden-sm'>list</span>
           </a>
@@ -29,12 +29,12 @@
           <img>
         </li>
         <li class='nav-link'>
-          <a href='#section-gallery'>
+          <a class='scroll' href='#section-gallery'>
             Gallery
           </a>
         </li>
         <li class='nav-link'>
-          <a href='#section-contact'>
+          <a class='scroll' href='#section-contact'>
             Contact
             <span class='hidden-sm'>us</span>
           </a>
@@ -43,6 +43,7 @@
     </nav>
     <div class='section-hero'></div>
     <div class='section-times'>
+      <div id='section-about'></div>
       <div class='row'>
         <h3>Opening times</h3>
         <div class='times-container'>
@@ -129,7 +130,7 @@
         </div>
       </div>
     </div>
-    <div class='section-about' id='section-about'>
+    <div class='section-about'>
       <div class='section-about__background'></div>
       <div class='row'>
         <div class='col-half col-half-right section-about__text'>
@@ -142,7 +143,8 @@
         </div>
       </div>
     </div>
-    <div class='section-servicelist' id='section-servicelist'>
+    <div class='section-servicelist'>
+      <div id='section-servicelist'></div>
       <div class='row'>
         <div class='col-half'>
           <h3>Edit Hair</h3>
@@ -152,13 +154,16 @@
         </div>
       </div>
     </div>
-    <div class='section-gallery' id='section-gallery'></div>
+    <div class='section-gallery'>
+      <div id='section-gallery'></div>
+    </div>
     <div class='section-products'>
       <div class='row'>
         <img src='images/products.png'>
       </div>
     </div>
-    <div class='section-contact' id='section-contact'>
+    <div class='section-contact'>
+      <div id='section-contact'></div>
       <div class='row'>
         <div class='col-half section-contact__text'>
           <h3>How to find us</h3>
@@ -181,7 +186,10 @@
           </p>
         </div>
       </div>
-      <div class='section-contact__map' id='map'></div>
+      <div class='section-contact__map'>
+        <div class='section-contact__map--overlay'></div>
+        <div id='map'></div>
+      </div>
     </div>
     <div class='section-footer'>
       <div class='row'>
@@ -241,6 +249,13 @@
           target: '#navbar',
           offset: 90
         })
+      });
+      
+      $('.scroll').click(function (e) {
+        e.preventDefault();
+        $("html,body").animate({
+          scrollTop: $(this.hash).offset().top
+        });
       });
     </script>
   </body>
