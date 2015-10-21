@@ -4,8 +4,10 @@
   background-image: url('../images/hero.jpg');
   background-repeat: no-repeat;
   background-size: cover;
+  padding-top: 48px;
   @include media-query(sm) {
     height: 720px;
+    padding-top: 80px;
   }
   &:after {
     content: "";

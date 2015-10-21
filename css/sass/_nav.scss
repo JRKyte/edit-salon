@@ -12,6 +12,10 @@ nav {
 }
 .nav-link {
   display: inline-block;
+  &:hover a, &:focus a, &.active a {
+    color: #B0966C;
+    border-color: #B19669;
+  }
   a {
     display: block;
     width: 70px;
@@ -24,10 +28,7 @@ nav {
     color: #6D6D6D;
     transition: all 0.3s ease;
     border-bottom: 4px solid transparent;
-    &:hover, &:focus, &.active {
-      color: #B0966C;
-      border-color: #B19669;
-    }
+
     @include media-query(sm) {
       font-size: 22px;
       padding: 29px 0 25px;

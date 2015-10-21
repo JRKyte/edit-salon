@@ -10,14 +10,14 @@
     %meta{:content => "width=device-width, initial-scale=1, maximum-scale=1", :name => "viewport"}
 
   %body
-    %nav
-      %ul.nav-links
+    %nav#navbar
+      %ul.nav-links.nav
         %li.nav-link
           %a{href: "#section-about"}
             About
             %span.hidden-sm us
         %li.nav-link
-          %a{href: "#section-servicelist", class: "active"}
+          %a{href: "#section-servicelist"}
             Service
             %span.hidden-sm list
         %li.nav-link.nav-links__logo
@@ -34,29 +34,62 @@
     .section-times
       .row
         %h3 Opening times
-        %table.table-times
-          %tr
-            %th Tuesday
-            %th Wednesday
-            %th Thursday
-            %th Friday
-            %th Saturday
-          %tr
-            %td
-              %div Open - 9:00
-              %div Close - 17:00
-            %td
-              %div Open - 9:00
-              %div Close - 20:00
-            %td
-              %div Open - 9:00
-              %div Close - 20:00
-            %td
-              %div Open - 9:00
-              %div Close - 17:00
-            %td
-              %div Open - 9:00
-              %div Close - 16:00
+        .times-container
+          .times-item
+            .times-day__heading
+              Tuesday
+              .visible-sm /
+            .times-day__detail
+              %div
+                %span.hidden-sm Open -
+                9:00
+              %div
+                %span.hidden-sm Close
+                \- 17:00
+          .times-item
+            .times-day__heading
+              Wedneday
+              .visible-sm /
+            .times-day__detail
+              %div
+                %span.hidden-sm Open -
+                9:00
+              %div
+                %span.hidden-sm Close
+                \- 20:00
+          .times-item
+            .times-day__heading
+              Thursday
+              .visible-sm /
+            .times-day__detail
+              %div
+                %span.hidden-sm Open -
+                9:00
+              %div
+                %span.hidden-sm Close
+                \- 20:00
+          .times-item.active
+            .times-day__heading
+              Friday
+              .visible-sm /
+            .times-day__detail
+              %div
+                %span.hidden-sm Open -
+                9:00
+              %div
+                %span.hidden-sm Close
+                \- 17:00
+          .times-item
+            .times-day__heading
+              Saturday
+              .visible-sm /
+            .times-day__detail
+              %div
+                %span.hidden-sm Open -
+                9:00
+              %div
+                %span.hidden-sm Close
+                \- 16:00
 
     .section-about#section-about
       .section-about__background
@@ -102,7 +135,7 @@
             %a{href: ""} 01234 123 456
 
       .section-contact__map#map
-      
+
     .section-footer
       .row
         %h3 Follow us on
@@ -115,9 +148,13 @@
           Edit Salon - 40 Main Street, Aughton, Sheffield, S26 3XJ - Website by
           %a{href: "http://www.jrk-design.co.uk/"} JRK Design
 
+    %script{:src => "https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"}
+    %script{:src => "js/bootstrap.min.js"}
+    %script{:src => "https://maps.googleapis.com/maps/api/js?sensor=false", :type => "text/javascript"}
 
-    // Fonts
     :javascript
+
+      // Typekit ASNYC fonts
       (function(d) {
         var config = {
           kitId: 'xqm2njv',
@@ -127,13 +164,7 @@
         h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
       })(document);
 
-    %script{:src => "https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"}
-    %script{:src => "js/bootstrap.min.js"}
-    %script{:src => "https://maps.googleapis.com/maps/api/js?sensor=false", :type => "text/javascript"}
-
-    // Google map
-    :javascript
-
+      // Google map
       google.maps.event.addDomListener(window, 'load', init);
 
       function init() {
@@ -152,3 +183,12 @@
               title: "We're here!"
           });
       }
+
+      // Scroll spy
+
+      $(document).ready(function() {
+        $('body').scrollspy({
+          target: '#navbar',
+          offset: 90
+        })
+      });

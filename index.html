@@ -11,8 +11,8 @@
     <meta content='width=device-width, initial-scale=1, maximum-scale=1' name='viewport'>
   </head>
   <body>
-    <nav>
-      <ul class='nav-links'>
+    <nav id='navbar'>
+      <ul class='nav-links nav'>
         <li class='nav-link'>
           <a href='#section-about'>
             About
@@ -20,7 +20,7 @@
           </a>
         </li>
         <li class='nav-link'>
-          <a class='active' href='#section-servicelist'>
+          <a href='#section-servicelist'>
             Service
             <span class='hidden-sm'>list</span>
           </a>
@@ -45,37 +45,88 @@
     <div class='section-times'>
       <div class='row'>
         <h3>Opening times</h3>
-        <table class='table-times'>
-          <tr>
-            <th>Tuesday</th>
-            <th>Wednesday</th>
-            <th>Thursday</th>
-            <th>Friday</th>
-            <th>Saturday</th>
-          </tr>
-          <tr>
-            <td>
-              <div>Open - 9:00</div>
-              <div>Close - 17:00</div>
-            </td>
-            <td>
-              <div>Open - 9:00</div>
-              <div>Close - 20:00</div>
-            </td>
-            <td>
-              <div>Open - 9:00</div>
-              <div>Close - 20:00</div>
-            </td>
-            <td>
-              <div>Open - 9:00</div>
-              <div>Close - 17:00</div>
-            </td>
-            <td>
-              <div>Open - 9:00</div>
-              <div>Close - 16:00</div>
-            </td>
-          </tr>
-        </table>
+        <div class='times-container'>
+          <div class='times-item'>
+            <div class='times-day__heading'>
+              Tuesday
+              <div class='visible-sm'>/</div>
+            </div>
+            <div class='times-day__detail'>
+              <div>
+                <span class='hidden-sm'>Open -</span>
+                9:00
+              </div>
+              <div>
+                <span class='hidden-sm'>Close</span>
+                - 17:00
+              </div>
+            </div>
+          </div>
+          <div class='times-item'>
+            <div class='times-day__heading'>
+              Wedneday
+              <div class='visible-sm'>/</div>
+            </div>
+            <div class='times-day__detail'>
+              <div>
+                <span class='hidden-sm'>Open -</span>
+                9:00
+              </div>
+              <div>
+                <span class='hidden-sm'>Close</span>
+                - 20:00
+              </div>
+            </div>
+          </div>
+          <div class='times-item'>
+            <div class='times-day__heading'>
+              Thursday
+              <div class='visible-sm'>/</div>
+            </div>
+            <div class='times-day__detail'>
+              <div>
+                <span class='hidden-sm'>Open -</span>
+                9:00
+              </div>
+              <div>
+                <span class='hidden-sm'>Close</span>
+                - 20:00
+              </div>
+            </div>
+          </div>
+          <div class='times-item active'>
+            <div class='times-day__heading'>
+              Friday
+              <div class='visible-sm'>/</div>
+            </div>
+            <div class='times-day__detail'>
+              <div>
+                <span class='hidden-sm'>Open -</span>
+                9:00
+              </div>
+              <div>
+                <span class='hidden-sm'>Close</span>
+                - 17:00
+              </div>
+            </div>
+          </div>
+          <div class='times-item'>
+            <div class='times-day__heading'>
+              Saturday
+              <div class='visible-sm'>/</div>
+            </div>
+            <div class='times-day__detail'>
+              <div>
+                <span class='hidden-sm'>Open -</span>
+                9:00
+              </div>
+              <div>
+                <span class='hidden-sm'>Close</span>
+                - 16:00
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
     <div class='section-about' id='section-about'>
@@ -149,8 +200,11 @@
         </p>
       </div>
     </div>
-    <!-- / Fonts -->
+    <script src='https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js'></script>
+    <script src='js/bootstrap.min.js'></script>
+    <script src='https://maps.googleapis.com/maps/api/js?sensor=false' type='text/javascript'></script>
     <script>
+      // Typekit ASNYC fonts
       (function(d) {
         var config = {
           kitId: 'xqm2njv',
@@ -159,12 +213,8 @@
         },
         h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
       })(document);
-    </script>
-    <script src='https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js'></script>
-    <script src='js/bootstrap.min.js'></script>
-    <script src='https://maps.googleapis.com/maps/api/js?sensor=false' type='text/javascript'></script>
-    <!-- / Google map -->
-    <script>
+      
+      // Google map
       google.maps.event.addDomListener(window, 'load', init);
       
       function init() {
@@ -183,6 +233,15 @@
               title: "We're here!"
           });
       }
+      
+      // Scroll spy
+      
+      $(document).ready(function() {
+        $('body').scrollspy({
+          target: '#navbar',
+          offset: 90
+        })
+      });
     </script>
   </body>
 </html>

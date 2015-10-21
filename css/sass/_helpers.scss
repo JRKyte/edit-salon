@@ -13,3 +13,13 @@
     display: inline-block;
   }
 }
+.visible-sm {
+  display: inline-block;
+  @include media-query(sm) {
+    display: none;
+  }
+}
+
+#section1, #section2 {
+  height: 1000px;
+}

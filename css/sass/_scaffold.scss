@@ -14,10 +14,7 @@ body {
   font-family: 'open-sans', sans-serif;
   background-color: #1B1B1B;
   color: #6D6D6D;
-  padding-top: 48px;
-  @include media-query(sm) {
-    padding-top: 80px;
-  }
+  position: relative;
 }
 img {
   max-width: 100%;
