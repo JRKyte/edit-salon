@@ -7,6 +7,15 @@ $(document).ready(function() {
   });
 });
 
+// Hero section resize & hex movement
+
+$(document).ready(function () {
+	$("#hero").height($(window).height() - 86);
+	$(window).resize(function () {
+	  $("#hero").height($(window).height() - 86);
+	});
+});
+
 // Smooth scroll
 
 $('.scroll').click(function (e) {

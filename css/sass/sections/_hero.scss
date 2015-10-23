@@ -1,4 +1,7 @@
 .section-hero {
+  display: table;
+  width: 100%;
+  min-height: 250px !important;
   height: 250px;
   position: relative;
   background-image: url('../images/hero.jpg');
@@ -6,13 +9,37 @@
   background-size: cover;
   padding-top: 48px;
   @include media-query(sm) {
+    min-height: 400px !important;
     height: 720px;
     padding-top: 80px;
   }
+}
+.section-hero__type {
+  margin-bottom: 20px;
+}
+.section-hero__type--left {
+  text-align: left;
+  position: relative;
   &:after {
-    content: "";
+    content: " ";
+    height: 1px;
+    background: #EBEBEB;
+    width: 78%;
     position: absolute;
-    top: 0; right: 0; bottom: 0; left: 0;
-    background: rgba(0,0,0,0.5);
+    right: 0;
+    top: 17px;
+  }
+}
+.section-hero__type--right {
+  text-align: right;
+  position: relative;
+  &:before {
+    content: " ";
+    height: 1px;
+    background: #EBEBEB;
+    width: 72%;
+    position: absolute;
+    left: 15px;
+    top: 17px;
   }
 }
