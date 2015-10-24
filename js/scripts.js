@@ -31,7 +31,7 @@ $('.scroll').click(function (e) {
 //   accessToken: '24087425.1677ed0.bae9502b21d64bb0aa4f8cbd53e84898',
 
 // Set size of feed based on screen
-var instafeedLimit = 5;
+var instafeedLimit = 6;
 
 // JS Media query
 if (matchMedia) {
@@ -43,10 +43,10 @@ if (matchMedia) {
 // Check if the media query is true or false
 function WidthChange(mq) {
   if (mq.matches) {
-    instafeedLimit = 7;
+    instafeedLimit = 8;
   }
   else {
-    instafeedLimit = 5;
+    instafeedLimit = 6;
   }
 }
 
