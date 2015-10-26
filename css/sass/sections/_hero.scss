@@ -14,32 +14,10 @@
     padding-top: 80px;
   }
 }
-.section-hero__type {
+.section-hero__logo {
+  max-width: 767px;
   margin-bottom: 20px;
-}
-.section-hero__type--left {
-  text-align: left;
-  position: relative;
-  &:after {
-    content: " ";
-    height: 1px;
-    background: #EBEBEB;
-    width: 78%;
-    position: absolute;
-    right: 0;
-    top: 17px;
-  }
-}
-.section-hero__type--right {
-  text-align: right;
-  position: relative;
-  &:before {
-    content: " ";
-    height: 1px;
-    background: #EBEBEB;
-    width: 72%;
-    position: absolute;
-    left: 15px;
-    top: 17px;
+  img {
+    width: 100%;
   }
 }

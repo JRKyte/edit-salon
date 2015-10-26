@@ -1,16 +1,12 @@
 h1, h2, h3 {
-  font-family: 'refrigerator-deluxe', 'Arial Condensed', sans-serif;
+  font-family: $heading-font;
   text-transform: uppercase;
   font-weight: 300;
 }
 h1 {
   font-size: 35px;
   color: #EBEBEB;
-  width: 715px;
   margin: 0 auto;
-  span {
-    display: block;
-  }
 }
 h3 {
   font-size: 30px;

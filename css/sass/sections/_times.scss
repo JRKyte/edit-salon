@@ -9,7 +9,7 @@
 }
 .times-container {
   display: block;
-  font-family: 'refrigerator-deluxe', sans-serif;
+  font-family: $heading-font;
   text-transform: uppercase;
   @include media-query(sm) {
     display: flex;

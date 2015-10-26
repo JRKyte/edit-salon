@@ -1,19 +1,16 @@
-// Scroll spy
-
 $(document).ready(function() {
-  $('body').scrollspy({
-    target: '#navbar',
-    offset: 90
+
+  // Scroll spy
+  // $('body').scrollspy({ target: '#navbar-example' });
+
+  // Highlight day
+  $('.times-item:eq(' + new Date().getDay() + ')').addClass('active');
+
+  // Hero section resize & hex movement
+  $("#hero").height($(window).height() - 86);
+  $(window).resize(function () {
+    $("#hero").height($(window).height() - 86);
   });
-});
-
-// Hero section resize & hex movement
-
-$(document).ready(function () {
-	$("#hero").height($(window).height() - 86);
-	$(window).resize(function () {
-	  $("#hero").height($(window).height() - 86);
-	});
 });
 
 // Smooth scroll

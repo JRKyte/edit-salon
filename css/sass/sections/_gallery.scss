@@ -37,7 +37,7 @@
   position: absolute;
   top: 0; right: 0; bottom: 0; left: 0;
   font-size: 35px;
-  font-family: 'refrigerator-deluxe', 'Arial Condensed', sans-serif;
+  font-family: $heading-font;
   background: #B0966C;
   background: rgba(176,150,108,0.8);
   a {
@@ -67,7 +67,7 @@
 }
 .load-more__title {
   font-size: 25px;
-  font-family: 'refrigerator-deluxe', 'Arial Condensed', sans-serif;
+  font-family: $heading-font;
   text-transform: uppercase;
   color: #FFFFFF;
 }
