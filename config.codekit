@@ -251,6 +251,17 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
+	"\/images\/arrow.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 797,
+		"inputAbbreviatedPath": "\/images\/arrow.png",
+		"outputAbbreviatedPath": "\/images\/arrow.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/facebook.png": {
 		"fileType": 32768,
 		"ignore": 0,

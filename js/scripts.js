@@ -6,11 +6,6 @@ $(document).ready(function() {
   // Highlight day
   $('.times-item:eq(' + new Date().getDay() + ')').addClass('active');
 
-  // Hero section resize & hex movement
-  $("#hero").height($(window).height() - 86);
-  $(window).resize(function () {
-    $("#hero").height($(window).height() - 86);
-  });
 });
 
 // Smooth scroll

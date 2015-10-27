@@ -1,13 +1,14 @@
 .section-hero {
   display: table;
   width: 100%;
-  min-height: 250px !important;
-  height: 250px;
+  height: 350px;
   position: relative;
   background-image: url('../images/hero.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   padding-top: 48px;
+  padding-left: 20px;
+  padding-right: 20px;
   @include media-query(sm) {
     min-height: 400px !important;
     height: 720px;
@@ -20,4 +21,17 @@
   img {
     width: 100%;
   }
+}
+.section-hero__scroll {
+  position: absolute;
+  bottom: 40px;
+  left: 50%;
+  margin-left: - 22px;
+  display: block;
+  width: 44px;
+  height: 23px;
+  background-image: url('../images/arrow.png');
+  background-repeat: no-repeat;
+  background-size: 100%;
+  text-indent: -99999px;
 }
