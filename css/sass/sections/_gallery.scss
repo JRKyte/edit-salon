@@ -63,8 +63,8 @@
   cursor: pointer;
   width: 100%;
   text-align: center;
-  width: 25%;
-  padding-bottom: 25%;
+  width: 50%;
+  padding-bottom: 50%;
   position: absolute;
   bottom: 0;
   right: 0;
@@ -72,4 +72,8 @@
   background-image: url('../images/load-more-bg.png');
   background-repeat: no-repeat;
   background-size: contain;
+  @include media-query(sm) {
+    width: 25%;
+    padding-bottom: 25%;
+  }
 }
