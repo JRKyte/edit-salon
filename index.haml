@@ -20,8 +20,6 @@
           %a{href: "#section-servicelist", class: "scroll"}
             Service
             %span.hidden-sm list
-        %li.nav-link.nav-links__logo
-          %img
         %li.nav-link
           %a{href: "#section-gallery", class: "scroll"}
             Gallery
@@ -34,7 +32,7 @@
       .table-cell
         .row
           %h1.section-hero__logo
-            %img{src: "images/hero.png"}
+            %img{src: "images/hero-logo.png"}
             .sr-only Welcome to Edit Salon, hair and beauty
 
     .section-times
@@ -251,7 +249,17 @@
 
     .section-products
       .row
-        %img{src: "images/products.png"}
+        .section-products__table
+          .section-products__table-cell
+            %img{src: "images/product-evo.png"}
+          .section-products__table-cell
+            %img{src: "images/product-balmain.png"}
+          .section-products__table-cell
+            %img{src: "images/product-wella.png"}
+          .section-products__table-cell
+            %img{src: "images/product-loreal.png"}
+          .section-products__table-cell
+            %img{src: "images/product-moroccan.png"}
 
     .section-contact
       #section-contact
@@ -275,7 +283,7 @@
             %a{href: ""} 01234 123 456
 
       .section-contact__map
-        .section-contact__map--overlay
+        %a{href: "https://www.google.co.uk/maps/place/40+Main+St,+Aughton,+Sheffield,+South+Yorkshire+S26/@53.3735446,-1.3178727,17z/data=!4m2!3m1!1s0x48799e064a9277f7:0x44a6fa4c125c00af", class: "section-contact__map--overlay", target: "_blank"}
         #map
 
     .section-footer
@@ -292,9 +300,9 @@
 
     %script{:src => "https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"}
     %script{:src => "https://maps.googleapis.com/maps/api/js?sensor=false", :type => "text/javascript"}
-    %script{:src => "js/bootstrap.min.js"}
-    %script{:src => "js/instafeed.js"}
-    %script{:src => "js/scripts.js"}
+    %script{:src => "js/min/bootstrap-min.js"}
+    %script{:src => "js/min/instafeed-min.js"}
+    %script{:src => "js/min/scripts-min.js"}
 
     :javascript
       // Typekit fonts

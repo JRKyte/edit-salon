@@ -25,9 +25,6 @@
             <span class='hidden-sm'>list</span>
           </a>
         </li>
-        <li class='nav-link nav-links__logo'>
-          <img>
-        </li>
         <li class='nav-link'>
           <a class='scroll' href='#section-gallery'>
             Gallery
@@ -46,7 +43,7 @@
       <div class='table-cell'>
         <div class='row'>
           <h1 class='section-hero__logo'>
-            <img src='images/hero.png'>
+            <img src='images/hero-logo.png'>
             <div class='sr-only'>Welcome to Edit Salon, hair and beauty</div>
           </h1>
         </div>
@@ -345,7 +342,23 @@
     </div>
     <div class='section-products'>
       <div class='row'>
-        <img src='images/products.png'>
+        <div class='section-products__table'>
+          <div class='section-products__table-cell'>
+            <img src='images/product-evo.png'>
+          </div>
+          <div class='section-products__table-cell'>
+            <img src='images/product-balmain.png'>
+          </div>
+          <div class='section-products__table-cell'>
+            <img src='images/product-wella.png'>
+          </div>
+          <div class='section-products__table-cell'>
+            <img src='images/product-loreal.png'>
+          </div>
+          <div class='section-products__table-cell'>
+            <img src='images/product-moroccan.png'>
+          </div>
+        </div>
       </div>
     </div>
     <div class='section-contact'>
@@ -373,7 +386,7 @@
         </div>
       </div>
       <div class='section-contact__map'>
-        <div class='section-contact__map--overlay'></div>
+        <a class='section-contact__map--overlay' href='https://www.google.co.uk/maps/place/40+Main+St,+Aughton,+Sheffield,+South+Yorkshire+S26/@53.3735446,-1.3178727,17z/data=!4m2!3m1!1s0x48799e064a9277f7:0x44a6fa4c125c00af' target='_blank'></a>
         <div id='map'></div>
       </div>
     </div>
@@ -396,9 +409,9 @@
     </div>
     <script src='https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js'></script>
     <script src='https://maps.googleapis.com/maps/api/js?sensor=false' type='text/javascript'></script>
-    <script src='js/bootstrap.min.js'></script>
-    <script src='js/instafeed.js'></script>
-    <script src='js/scripts.js'></script>
+    <script src='js/min/bootstrap-min.js'></script>
+    <script src='js/min/instafeed-min.js'></script>
+    <script src='js/min/scripts-min.js'></script>
     <script>
       // Typekit fonts
       (function(d) {

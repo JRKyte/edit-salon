@@ -14,17 +14,12 @@
     a {
       display: block;
       text-indent: -99999px;
-      width: 30px;
-      height: 30px;
-      margin: 0 20px;
+      width: 44px;
+      height: 44px;
+      margin: 0 10px;
       transition: all 0.3s ease;
       &:hover {
         transform: translateY(-4px);
-      }
-      @include media-query(sm) {
-        width: 44px;
-        height: 44px;
-        margin: 0 10px;
       }
     }
   }
@@ -39,9 +34,7 @@
 }
 #list-social--facebook {
   background-image: url('../images/facebook.png');
-  background-image: url('../images/facebook.svg'), linear-gradient(transparent, transparent);
 }
 #list-social--instagram {
   background-image: url('../images/instagram.png');
-  background-image: url('../images/instagram.svg'), linear-gradient(transparent, transparent);
 }

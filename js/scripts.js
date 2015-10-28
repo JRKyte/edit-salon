@@ -1,10 +1,14 @@
+// Scripts
+
 $(document).ready(function() {
-
-  // Scroll spy
-  // $('body').scrollspy({ target: '#navbar-example' });
-
   // Highlight day
   $('.times-item:eq(' + new Date().getDay() + ')').addClass('active');
+
+  // Hero resize
+  $("#hero").height($(window).height() - 40);
+	$(window).resize(function () {
+	  $("#hero").height($(window).height() - 40);
+	});
 
 });
 
