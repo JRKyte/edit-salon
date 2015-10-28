@@ -63,11 +63,13 @@
   cursor: pointer;
   width: 100%;
   text-align: center;
-  padding: 20px 0;
-}
-.load-more__title {
-  font-size: 25px;
-  font-family: $heading-font;
-  text-transform: uppercase;
-  color: #FFFFFF;
+  width: 25%;
+  padding-bottom: 25%;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background-color: #1B1B1B;
+  background-image: url('../images/load-more-bg.png');
+  background-repeat: no-repeat;
+  background-size: contain;
 }

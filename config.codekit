@@ -306,6 +306,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/load-more-bg.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 5340,
+		"inputAbbreviatedPath": "\/images\/load-more-bg.png",
+		"outputAbbreviatedPath": "\/images\/load-more-bg.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/map.png": {
 		"fileType": 32768,
 		"ignore": 0,
