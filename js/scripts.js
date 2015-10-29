@@ -1,6 +1,7 @@
 // Scripts
 
 $(document).ready(function() {
+
   // Highlight day
   $('.times-item:eq(' + new Date().getDay() + ')').addClass('active');
 
@@ -10,21 +11,17 @@ $(document).ready(function() {
 	  $("#hero").height($(window).height() - 40);
 	});
 
-});
-
-// Smooth scroll
-
-$('.scroll').click(function (e) {
-  e.preventDefault();
-  $("html,body").animate({
-    scrollTop: $(this.hash).offset().top
+  // Smooth scroll
+  $('.scroll').click(function (e) {
+    e.preventDefault();
+    $("html,body").animate({
+      scrollTop: $(this.hash).offset().top
+    });
   });
+
 });
 
-// Instagram feed
-
-//   userId: 24087425,
-//   accessToken: '24087425.1677ed0.bae9502b21d64bb0aa4f8cbd53e84898',
+// Instafeed plugin
 
 // Set size of feed based on screen
 var instafeedLimit = 6;
@@ -47,6 +44,9 @@ function WidthChange(mq) {
 }
 
 // Load instafeed with options
+// userId: 273726927 // This is the correct user ID
+// accessToken: '24087425.1677ed0.bae9502b21d64bb0aa4f8cbd53e84898'
+// https://github.com/stevenschobert/instafeed.js/issues/226 // this is users from hashtag
 
 var loadButton = document.getElementById('load-more');
 var feed = new Instafeed({

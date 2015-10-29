@@ -39,11 +39,16 @@ nav {
     color: #6D6D6D;
     transition: all 0.5s ease;
     border-bottom: 4px solid transparent;
-
+    .wf-loading & {
+      font-size: 15px;
+    }
     @include media-query(sm) {
       font-size: 22px;
       padding: 29px 0 25px;
       width: 130px;
+      .wf-loading & {
+        font-size: 18px;
+      }
     }
   }
 }

@@ -7,6 +7,9 @@ h1 {
   font-size: 35px;
   color: #EBEBEB;
   margin: 0 auto;
+  .wf-loading & {
+    font-size: 30px;
+  }
 }
 h3 {
   font-size: 30px;
