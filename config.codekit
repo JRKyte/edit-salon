@@ -310,9 +310,20 @@
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 5340,
+		"initialSize": 4345,
 		"inputAbbreviatedPath": "\/images\/load-more-bg.png",
 		"outputAbbreviatedPath": "\/images\/load-more-bg.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/map-marker.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 857,
+		"inputAbbreviatedPath": "\/images\/map-marker.png",
+		"outputAbbreviatedPath": "\/images\/map-marker.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -401,6 +412,17 @@
 		"initialSize": 332049,
 		"inputAbbreviatedPath": "\/images\/section-about-bg.jpg",
 		"outputAbbreviatedPath": "\/images\/section-about-bg.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/zoom-icon.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1515,
+		"inputAbbreviatedPath": "\/images\/zoom-icon.png",
+		"outputAbbreviatedPath": "\/images\/zoom-icon.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0

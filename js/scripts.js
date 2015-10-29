@@ -54,7 +54,7 @@ var feed = new Instafeed({
   get: 'tagged',
   tagName: 'studionuumi',
   clientId: '928ee4b3df8744739718b79331aa4d4d',
-  template: '<div class="instafeed__item" style="background-image: url({{image}});"><div class="instafeed__item--contaniner"><div class="table"><a href="{{link}}" class="table-cell">View large</a></div></div></div>',
+  template: '<div class="instafeed__item" style="background-image: url({{image}});"><div class="instafeed__item--contaniner"><div class="table"><a href="{{link}}" class="table-cell"><i class="zoom-icon"></i>View large</a></div></div></div>',
   limit: instafeedLimit,
   resolution: 'low_resolution',
   after: function() {

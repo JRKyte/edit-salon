@@ -25,7 +25,6 @@
     width: 25%;
     padding-bottom : 25%;
     &:hover .instafeed__item--contaniner, &:focus .instafeed__item--contaniner {
-
       opacity: 1;
     }
   }
@@ -38,6 +37,7 @@
   top: 0; right: 0; bottom: 0; left: 0;
   font-size: 35px;
   font-family: $heading-font;
+  font-weight: 300;
   background: #B0966C;
   background: rgba(176,150,108,0.8);
   a {
@@ -45,6 +45,15 @@
     text-transform: uppercase;
     text-decoration: none;
   }
+}
+.zoom-icon {
+  display: block;
+  margin: 0 auto 20px;
+  width: 44px;
+  height: 44px;
+  background-image: url('../images/zoom-icon.png');
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 .table {
   display: table;
