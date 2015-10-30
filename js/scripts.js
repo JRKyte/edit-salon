@@ -13,7 +13,7 @@ $(document).ready(function() {
     var target = this.hash;
     $target = $(target);
     $('html, body').stop().animate({
-      'scrollTop': $target.offset().top + 2
+      'scrollTop': $target.offset().top - 80
     }, 500, 'swing', function() {
       window.location.hash = target;
       $(document).on("scroll", onScroll);
@@ -32,7 +32,7 @@ $(document).ready(function() {
 });
 
 function onScroll(event) {
-  var scrollPosition = $(document).scrollTop();
+  var scrollPosition = ($(document).scrollTop() + 80);
   $('nav a').each(function() {
     var currentLink = $(this);
     var refElement = $(currentLink.attr("href"));
