@@ -9,6 +9,7 @@
 .section-products__table {
   width: 100%;
   display: table;
+  table-layout: fixed;
 }
 .section-products__table-cell {
   display: table-cell;

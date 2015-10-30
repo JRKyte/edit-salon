@@ -4,9 +4,10 @@
     <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
   %head
     %meta{:charset => "UTF-8"}
-    %title= "EDIT Hair"
+    %title= "EDIT | Hair and beauty salon in Sheffield"
+    %meta{:content => "Edit salon is a hairdressing and beauty salon based in Aston, Sheffield.", :name => "Description"}
+    %meta{:content => "hairdressing, salon, beauty, hairdressing in rotherham, hairdressing in sheffield, hairdressers, hairdressers in rotherham, hairdressers in sheffield, hair cut, barbers, stylist", :name => "keywords"}
     %link{:href => "favicon.ico", :rel => "shortcut icon"}
-    %link{:href => "css/style.css", :rel => "stylesheet", :type => "text/css"}
     %meta{:content => "width=device-width, initial-scale=1, maximum-scale=1", :name => "viewport"}
 
   %body
@@ -34,7 +35,7 @@
       .table-cell
         .row
           %h1.section-hero__logo
-            %img{src: "images/hero-logo.png"}
+            %img{src: "images/hero-logo.png", alt: "Edit Salon logo"}
             .sr-only Welcome to Edit Salon, hair and beauty
 
     // SECTION ABOUT
@@ -255,15 +256,15 @@
       .row
         .section-products__table
           .section-products__table-cell
-            %img{src: "images/product-evo.png"}
+            %img{src: "images/product-evo.png", alt: "Product logo for Evo"}
           .section-products__table-cell
-            %img{src: "images/product-balmain.png"}
+            %img{src: "images/product-balmain.png", alt: "Product logo for Balmain"}
           .section-products__table-cell
-            %img{src: "images/product-wella.png"}
+            %img{src: "images/product-wella.png", alt: "Product logo for Wella"}
           .section-products__table-cell
-            %img{src: "images/product-loreal.png"}
+            %img{src: "images/product-loreal.png", alt: "Product logo for Loreal"}
           .section-products__table-cell
-            %img{src: "images/product-moroccan.png"}
+            %img{src: "images/product-moroccan.png", alt: "Product logo for Moroccan"}
 
     // SECTION CONTACT
     .section-contact#section-contact
@@ -303,6 +304,7 @@
           Edit Salon - 40 Main Street, Aughton, Sheffield, S26 3XJ - Website by
           %a{href: "http://www.jrk-design.co.uk/"} JRK Design
 
+  %link{:href => "css/style.css", :rel => "stylesheet", :type => "text/css"}
   %script{:src => "//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js", :type => "text/javascript"}
   %script{:src => "js/min/instafeed-min.js"}
   %script{:src => "https://maps.googleapis.com/maps/api/js?sensor=false", :type => "text/javascript"}

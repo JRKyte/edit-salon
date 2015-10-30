@@ -260,7 +260,7 @@
 		"outputAbbreviatedPath": "\/images\/arrow.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/facebook.png": {
 		"fileType": 32768,
@@ -271,7 +271,7 @@
 		"outputAbbreviatedPath": "\/images\/facebook.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/hero-logo.png": {
 		"fileType": 32768,
@@ -282,7 +282,7 @@
 		"outputAbbreviatedPath": "\/images\/hero-logo.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/hero.jpg": {
 		"fileType": 16384,
@@ -293,7 +293,7 @@
 		"outputAbbreviatedPath": "\/images\/hero.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/instagram.png": {
 		"fileType": 32768,
@@ -304,7 +304,7 @@
 		"outputAbbreviatedPath": "\/images\/instagram.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/load-more-bg.png": {
 		"fileType": 32768,
@@ -315,7 +315,7 @@
 		"outputAbbreviatedPath": "\/images\/load-more-bg.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/map-marker.png": {
 		"fileType": 32768,
@@ -326,18 +326,7 @@
 		"outputAbbreviatedPath": "\/images\/map-marker.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/images\/map.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 112093,
-		"inputAbbreviatedPath": "\/images\/map.png",
-		"outputAbbreviatedPath": "\/images\/map.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/product-balmain.png": {
 		"fileType": 32768,
@@ -348,7 +337,7 @@
 		"outputAbbreviatedPath": "\/images\/product-balmain.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/product-evo.png": {
 		"fileType": 32768,
@@ -359,7 +348,7 @@
 		"outputAbbreviatedPath": "\/images\/product-evo.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/product-loreal.png": {
 		"fileType": 32768,
@@ -370,7 +359,7 @@
 		"outputAbbreviatedPath": "\/images\/product-loreal.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/product-moroccan.png": {
 		"fileType": 32768,
@@ -381,7 +370,7 @@
 		"outputAbbreviatedPath": "\/images\/product-moroccan.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/product-wella.png": {
 		"fileType": 32768,
@@ -392,18 +381,7 @@
 		"outputAbbreviatedPath": "\/images\/product-wella.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/images\/products.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 34363,
-		"inputAbbreviatedPath": "\/images\/products.png",
-		"outputAbbreviatedPath": "\/images\/products.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/section-about-bg.jpg": {
 		"fileType": 16384,
@@ -414,7 +392,7 @@
 		"outputAbbreviatedPath": "\/images\/section-about-bg.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/zoom-icon.png": {
 		"fileType": 32768,
@@ -425,7 +403,7 @@
 		"outputAbbreviatedPath": "\/images\/zoom-icon.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/index.haml": {
 		"escapeHTMLCharacters": 0,
