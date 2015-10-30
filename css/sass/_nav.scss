@@ -1,4 +1,4 @@
-nav {
+header {
   text-align: center;
   width: 100%;
   position: fixed;
@@ -23,10 +23,6 @@ nav {
     display: inline-block;
     width: auto;
   }
-  &:hover a, &:focus a, &.active a {
-    color: #B0966C;
-    border-color: #B19669;
-  }
   a {
     display: block;
     width: auto;
@@ -41,6 +37,10 @@ nav {
     border-bottom: 4px solid transparent;
     .wf-loading & {
       font-size: 15px;
+    }
+    &:hover, &:focus, &.active {
+      color: #B0966C;
+      border-color: #B19669;
     }
     @include media-query(sm) {
       font-size: 22px;

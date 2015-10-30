@@ -24,13 +24,6 @@ img {
 a {
   color: #B0966C;
 }
-div[id^="section"] {
-  position: absolute;
-  top: -40px;
-  @include media-query(sm) {
-    top: -80px;
-  }
-}
 .row {
   max-width: 1140px;
   margin: 0 auto;

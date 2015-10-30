@@ -10,23 +10,25 @@
     %meta{:content => "width=device-width, initial-scale=1, maximum-scale=1", :name => "viewport"}
 
   %body
-    %nav.navbar
-      %ul.nav-links.nav.nav-tabs
-        %li.nav-link
-          %a{href: "#section-about", class: "scroll"}
-            About
-            %span.hidden-sm us
-        %li.nav-link
-          %a{href: "#section-servicelist", class: "scroll"}
-            Service
-            %span.hidden-sm list
-        %li.nav-link
-          %a{href: "#section-gallery", class: "scroll"}
-            Gallery
-        %li.nav-link
-          %a{href: "#section-contact", class: "scroll"}
-            Contact
-            %span.hidden-sm us
+    %header
+      %nav
+        %ul.nav-links
+          %li.nav-link
+            %a{href: "#section-about"}
+              About
+              %span.hidden-sm us
+          %li.nav-link
+            %a{href: "#section-servicelist"}
+              Service
+              %span.hidden-sm list
+          %li.nav-link
+            %a{href: "#section-gallery"}
+              Gallery
+          %li.nav-link
+            %a{href: "#section-contact"}
+              Contact
+              %span.hidden-sm us
+  .content
     .section-hero#hero
       %a{href: "#section-about", class: "section-hero__scroll scroll"} Scroll down the page
       .table-cell
@@ -35,82 +37,83 @@
             %img{src: "images/hero-logo.png"}
             .sr-only Welcome to Edit Salon, hair and beauty
 
-    .section-times
-      #section-about
-      .row
-        %h3 Opening times
-        .times-container
-          .times-item.hide
-          .times-item.hide
-          .times-item
-            .times-day__heading
-              Tuesday
-              .visible-sm /
-            .times-day__detail
-              %div
-                %span.hidden-sm Open -
-                9:00
-              %div
-                %span.hidden-sm Close
-                \- 17:00
-          .times-item
-            .times-day__heading
-              Wedneday
-              .visible-sm /
-            .times-day__detail
-              %div
-                %span.hidden-sm Open -
-                9:00
-              %div
-                %span.hidden-sm Close
-                \- 20:00
-          .times-item
-            .times-day__heading
-              Thursday
-              .visible-sm /
-            .times-day__detail
-              %div
-                %span.hidden-sm Open -
-                9:00
-              %div
-                %span.hidden-sm Close
-                \- 20:00
-          .times-item
-            .times-day__heading
-              Friday
-              .visible-sm /
-            .times-day__detail
-              %div
-                %span.hidden-sm Open -
-                9:00
-              %div
-                %span.hidden-sm Close
-                \- 17:00
-          .times-item
-            .times-day__heading
-              Saturday
-              .visible-sm /
-            .times-day__detail
-              %div
-                %span.hidden-sm Open -
-                9:00
-              %div
-                %span.hidden-sm Close
-                \- 16:00
+    // SECTION ABOUT
+    #section-about
+      .section-times
+        .row
+          %h3 Opening times
+          .times-container
+            .times-item.hide
+            .times-item.hide
+            .times-item
+              .times-day__heading
+                Tuesday
+                .visible-sm /
+              .times-day__detail
+                %div
+                  %span.hidden-sm Open -
+                  9:00
+                %div
+                  %span.hidden-sm Close
+                  \- 17:00
+            .times-item
+              .times-day__heading
+                Wedneday
+                .visible-sm /
+              .times-day__detail
+                %div
+                  %span.hidden-sm Open -
+                  9:00
+                %div
+                  %span.hidden-sm Close
+                  \- 20:00
+            .times-item
+              .times-day__heading
+                Thursday
+                .visible-sm /
+              .times-day__detail
+                %div
+                  %span.hidden-sm Open -
+                  9:00
+                %div
+                  %span.hidden-sm Close
+                  \- 20:00
+            .times-item
+              .times-day__heading
+                Friday
+                .visible-sm /
+              .times-day__detail
+                %div
+                  %span.hidden-sm Open -
+                  9:00
+                %div
+                  %span.hidden-sm Close
+                  \- 17:00
+            .times-item
+              .times-day__heading
+                Saturday
+                .visible-sm /
+              .times-day__detail
+                %div
+                  %span.hidden-sm Open -
+                  9:00
+                %div
+                  %span.hidden-sm Close
+                  \- 16:00
 
-    .section-about
-      .section-about__background
-      .row
-        .col-half.col-half-right.section-about__text
-          %h3 Who we are
-          %p.paragraph-margin Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce efficitur justo eu tortor ultricies, non convallis lacus egestas. Donec bibendum nisi ut efficitur rhoncus. Cras non efficitur velit, vitae finibus elit. Curabitur ornare urna id lorem ultrices fermentum. Ut aliquet dapibus dictum. Duis consectetur quis eros a ornare.
+      .section-about
+        .section-about__background
+        .row
+          .col-half.col-half-right.section-about__text
+            %h3 Who we are
+            %p.paragraph-margin Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce efficitur justo eu tortor ultricies, non convallis lacus egestas. Donec bibendum nisi ut efficitur rhoncus. Cras non efficitur velit, vitae finibus elit. Curabitur ornare urna id lorem ultrices fermentum. Ut aliquet dapibus dictum. Duis consectetur quis eros a ornare.
 
-          %p
-            Call us to book:
-            %a{href: "tel:44557208207"} 01234 123 456
+            %p
+              Call us to book:
+              %a{href: "tel:44557208207"} 01234 123 456
 
-    .section-servicelist
-      #section-servicelist
+    // SECTION SERVICE LIST
+    .section-servicelist#section-servicelist
       .row
         .col-half
           %h3.text-center Edit Hair
@@ -240,12 +243,14 @@
             %tr
               %td Nail Art
               %td POE
-    .section-gallery
-      #section-gallery
+
+    // SECTION GALLERY
+    .section-gallery#section-gallery
       #instafeed
       #load-more
         .sr-only Load more images in feed
 
+    // SECTION PRODUCTS
     .section-products
       .row
         .section-products__table
@@ -260,8 +265,8 @@
           .section-products__table-cell
             %img{src: "images/product-moroccan.png"}
 
-    .section-contact
-      #section-contact
+    // SECTION CONTACT
+    .section-contact#section-contact
       .row
         .col-half.section-contact__text
           %h3 How to find us
@@ -285,6 +290,7 @@
         %a{href: "https://www.google.co.uk/maps/place/40+Main+St,+Aughton,+Sheffield,+South+Yorkshire+S26/@53.3735446,-1.3178727,17z/data=!4m2!3m1!1s0x48799e064a9277f7:0x44a6fa4c125c00af", class: "section-contact__map--overlay", target: "_blank"}
         #map
 
+    // SECTION FOOTER
     .section-footer
       .row
         %h3 Follow us on
@@ -297,38 +303,18 @@
           Edit Salon - 40 Main Street, Aughton, Sheffield, S26 3XJ - Website by
           %a{href: "http://www.jrk-design.co.uk/"} JRK Design
 
-    %script{:src => "https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"}
-    %script{:src => "https://maps.googleapis.com/maps/api/js?sensor=false", :type => "text/javascript"}
-    %script{:src => "js/min/instafeed-min.js"}
-    %script{:src => "js/min/scripts-min.js"}
+  %script{:src => "//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js", :type => "text/javascript"}
+  %script{:src => "js/min/instafeed-min.js"}
+  %script{:src => "https://maps.googleapis.com/maps/api/js?sensor=false", :type => "text/javascript"}
+  %script{:src => "js/min/scripts-min.js"}
 
-    :javascript
-      // Typekit fonts
-      (function(d) {
-        var config = {
-          kitId: 'xqm2njv',
-          scriptTimeout: 3000,
-          async: true
-        },
-        h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
-      })(document);
-
-      // Google map
-      google.maps.event.addDomListener(window, 'load', init);
-      function init() {
-        var mapOptions = {
-          zoom: 14,
-          center: new google.maps.LatLng(53.373443, -1.317944),
-          styles: [{"featureType":"water","elementType":"geometry","stylers":[{"color":"#e9e9e9"},{"lightness":17}]},{"featureType":"landscape","elementType":"geometry","stylers":[{"color":"#f5f5f5"},{"lightness":20}]},{"featureType":"road.highway","elementType":"geometry.fill","stylers":[{"color":"#ffffff"},{"lightness":17}]},{"featureType":"road.highway","elementType":"geometry.stroke","stylers":[{"color":"#ffffff"},{"lightness":29},{"weight":0.2}]},{"featureType":"road.arterial","elementType":"geometry","stylers":[{"color":"#ffffff"},{"lightness":18}]},{"featureType":"road.local","elementType":"geometry","stylers":[{"color":"#ffffff"},{"lightness":16}]},{"featureType":"poi","elementType":"geometry","stylers":[{"color":"#f5f5f5"},{"lightness":21}]},{"featureType":"poi.park","elementType":"geometry","stylers":[{"color":"#dedede"},{"lightness":21}]},{"elementType":"labels.text.stroke","stylers":[{"visibility":"on"},{"color":"#ffffff"},{"lightness":16}]},{"elementType":"labels.text.fill","stylers":[{"saturation":36},{"color":"#333333"},{"lightness":40}]},{"elementType":"labels.icon","stylers":[{"visibility":"off"}]},{"featureType":"transit","elementType":"geometry","stylers":[{"color":"#f2f2f2"},{"lightness":19}]},{"featureType":"administrative","elementType":"geometry.fill","stylers":[{"color":"#fefefe"},{"lightness":20}]},{"featureType":"administrative","elementType":"geometry.stroke","stylers":[{"color":"#fefefe"},{"lightness":17},{"weight":1.2}]}]
-        };
-
-        var mapElement = document.getElementById('map');
-        var map = new google.maps.Map(mapElement, mapOptions);
-
-        var marker = new google.maps.Marker({
-          position: new google.maps.LatLng(53.373443, -1.317944),
-          map: map,
-          icon: 'images/map-marker.png',
-          title: "We're here!"
-        });
-      }
+  :javascript
+    // Typekit fonts
+    (function(d) {
+      var config = {
+        kitId: 'xqm2njv',
+        scriptTimeout: 3000,
+        async: true
+      },
+      h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
+    })(document);
