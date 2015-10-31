@@ -1,6 +1,7 @@
 .section-hero {
   display: table;
   width: 100%;
+  min-height: 300px;
   max-height: 700px !important;
   position: relative;
   background-image: url('../images/hero.jpg');
@@ -11,6 +12,7 @@
   padding-right: 20px;
   @include media-query(sm) {
     padding-top: 80px;
+    min-height: 500px;
   }
 }
 .section-hero__logo {
@@ -29,6 +31,7 @@
   width: 22px;
   height: 11px;
   background-image: url('../images/arrow.png');
+  background-image: linear-gradient(transparent, transparent), url('../images/arrow.svg');
   background-repeat: no-repeat;
   background-size: 100%;
   text-indent: -99999px;

@@ -34,7 +34,9 @@
 }
 #list-social--facebook {
   background-image: url('../images/facebook.png');
+  background-image: linear-gradient(transparent, transparent), url('../images/facebook.svg');
 }
 #list-social--instagram {
   background-image: url('../images/instagram.png');
+  background-image: linear-gradient(transparent, transparent), url('../images/instagram.svg');
 }
