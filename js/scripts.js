@@ -88,19 +88,15 @@ function WidthChange(mq) {
 }
 
 // Load instafeed with options
-// userId: 273726927 // This is the correct user ID
-
-// 273726927.1677ed0.40b61ad546f9464e8415bf80bd835258 // this is teh access token
-
-// accessToken: '24087425.1677ed0.bae9502b21d64bb0aa4f8cbd53e84898'
-// https://github.com/stevenschobert/instafeed.js/issues/226 // this is users from hashtag
 
 var loadButton = document.getElementById('load-more');
 var feed = new Instafeed({
-  // Every time we load more, run this function
-  get: 'tagged',
-  tagName: 'studionuumi',
-  clientId: '928ee4b3df8744739718b79331aa4d4d',
+  get: 'user',
+  userId: 273726927,
+  accessToken: '273726927.1677ed0.40b61ad546f9464e8415bf80bd835258',
+  filter: function(image) {
+    return image.tags.indexOf('longhair') >= 0;
+  },
   template: '<div class="instafeed__item" style="background-image: url({{image}});"><div class="instafeed__item--contaniner"><div class="table"><a href="{{link}}" class="table-cell"><i class="zoom-icon"></i>View large</a></div></div></div>',
   limit: instafeedLimit,
   resolution: 'low_resolution',
