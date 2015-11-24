@@ -2,9 +2,9 @@
   display: table;
   width: 100%;
   min-height: 300px;
-  max-height: 700px !important;
+  max-height: 650px !important;
   position: relative;
-  background-image: url('../images/hero.jpg');
+  background-image: url('../images/hero-mobile.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   padding-top: 48px;
@@ -13,10 +13,11 @@
   @include media-query(sm) {
     padding-top: 80px;
     min-height: 500px;
+    background-image: url('../images/hero.jpg');
   }
 }
 .section-hero__logo {
-  max-width: 767px;
+  max-width: 543px;
   margin-bottom: 20px;
   img {
     width: 100%;

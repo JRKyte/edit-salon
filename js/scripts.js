@@ -94,9 +94,10 @@ var feed = new Instafeed({
   get: 'user',
   userId: 273726927,
   accessToken: '273726927.1677ed0.40b61ad546f9464e8415bf80bd835258',
-  filter: function(image) {
-    return image.tags.indexOf('longhair') >= 0;
-  },
+  // Filter by hashtag - currently seems broken on Instafeed.js 4.1
+  // filter: function(image) {
+  //   return image.tags.indexOf('longhair') >= 0;
+  // },
   template: '<div class="instafeed__item" style="background-image: url({{image}});"><div class="instafeed__item--contaniner"><div class="table"><a href="{{link}}" class="table-cell"><i class="zoom-icon"></i>View large</a></div></div></div>',
   limit: instafeedLimit,
   resolution: 'low_resolution',

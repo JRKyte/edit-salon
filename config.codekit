@@ -1,6 +1,6 @@
 {
 "CodeKitInfo": "This is a CodeKit 2.x project configuration file. It is designed to sync project settings across multiple machines. MODIFYING THE CONTENTS OF THIS FILE IS A POOR LIFE DECISION. If you do so, you will likely cause CodeKit to crash. This file is not useful unless accompanied by the project that created it in CodeKit 2. This file is not backwards-compatible with CodeKit 1.x. For more information, see: http:\/\/incident57.com\/codekit",
-"creatorBuild": "19076",
+"creatorBuild": "19102",
 "files": {
 	"\/android-chrome-144x144.png": {
 		"fileType": 32768,
@@ -486,7 +486,7 @@
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 337,
+		"initialSize": 196,
 		"inputAbbreviatedPath": "\/images\/arrow.png",
 		"outputAbbreviatedPath": "\/images\/arrow.png",
 		"outputPathIsOutsideProject": 0,
@@ -497,7 +497,7 @@
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 1118,
+		"initialSize": 577,
 		"inputAbbreviatedPath": "\/images\/facebook.png",
 		"outputAbbreviatedPath": "\/images\/facebook.png",
 		"outputPathIsOutsideProject": 0,
@@ -508,12 +508,23 @@
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 30811,
+		"initialSize": 6913,
 		"inputAbbreviatedPath": "\/images\/hero-logo.png",
 		"outputAbbreviatedPath": "\/images\/hero-logo.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 1
+		"processed": 0
+		},
+	"\/images\/hero-mobile.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 19089,
+		"inputAbbreviatedPath": "\/images\/hero-mobile.jpg",
+		"outputAbbreviatedPath": "\/images\/hero-mobile.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
 		},
 	"\/images\/hero.jpg": {
 		"fileType": 16384,
@@ -530,7 +541,7 @@
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 1673,
+		"initialSize": 747,
 		"inputAbbreviatedPath": "\/images\/instagram.png",
 		"outputAbbreviatedPath": "\/images\/instagram.png",
 		"outputPathIsOutsideProject": 0,
@@ -541,7 +552,7 @@
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 4345,
+		"initialSize": 1680,
 		"inputAbbreviatedPath": "\/images\/load-more-bg.png",
 		"outputAbbreviatedPath": "\/images\/load-more-bg.png",
 		"outputPathIsOutsideProject": 0,
@@ -629,7 +640,7 @@
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 1515,
+		"initialSize": 670,
 		"inputAbbreviatedPath": "\/images\/zoom-icon.png",
 		"outputAbbreviatedPath": "\/images\/zoom-icon.png",
 		"outputPathIsOutsideProject": 0,
@@ -874,8 +885,16 @@
 			"active": 0,
 			"flagValue": -1
 			},
+		"no_nested_string_interpolation": {
+			"active": 1,
+			"flagValue": -1
+			},
 		"no_plusplus": {
 			"active": 0,
+			"flagValue": -1
+			},
+		"no_private_function_fat_arrows": {
+			"active": 1,
 			"flagValue": -1
 			},
 		"no_stand_alone_at": {
@@ -884,6 +903,10 @@
 			},
 		"no_tabs": {
 			"active": 1,
+			"flagValue": -1
+			},
+		"no_this": {
+			"active": 0,
 			"flagValue": -1
 			},
 		"no_throwing_strings": {
