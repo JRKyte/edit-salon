@@ -2,17 +2,17 @@
   display: table;
   width: 100%;
   min-height: 300px;
-  max-height: 650px !important;
+  max-height: 570px !important;
   position: relative;
   background-image: url('../images/hero-mobile.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
-  padding-top: 48px;
+  margin-top: 48px;
   padding-left: 20px;
   padding-right: 20px;
   @include media-query(sm) {
-    padding-top: 80px;
+    margin-top: 80px;
     min-height: 500px;
     background-image: url('../images/hero.jpg');
   }
