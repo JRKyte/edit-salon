@@ -37,4 +37,7 @@ p {
   @include media-query(sm) {
     font-size: 12px;
   }
+  + .small-text {
+    margin-bottom: 30px;
+  }
 }
