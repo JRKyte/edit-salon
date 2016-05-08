@@ -28,7 +28,8 @@
   }
 }
 #list-social--facebook,
-#list-social--instagram {
+#list-social--instagram,
+#list-social--twitter {
   background-repeat: no-repeat;
   background-size: 100%;
 }
@@ -39,4 +40,8 @@
 #list-social--instagram {
   background-image: url('../images/instagram.png');
   background-image: linear-gradient(transparent, transparent), url('../images/instagram.svg');
+}
+#list-social--twitter {
+  background-image: url('../images/twitter.png');
+  background-image: linear-gradient(transparent, transparent), url('../images/twitter.svg');
 }
