@@ -51,3 +51,9 @@ a {
     margin-left: 50%;
   }
 }
+.col-half-left {
+  margin-right: 0;
+  @include media-query(sm) {
+    margin-right: 50%;
+  }
+}

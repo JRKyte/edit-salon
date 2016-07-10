@@ -1,0 +1,33 @@
+.section-aveda__text {
+  @extend .section-about__text;
+  padding-right: 15px;
+  padding-left: 0;
+  @include media-query(sm) {
+    padding-right: 50px;
+  }
+}
+.section-aveda__text--dark {
+  background: #1b1b1b;
+}
+.section-aveda--dark {
+  background: #1b1b1b;
+}
+.section-aveda__background--1,
+.section-aveda__background--2 {
+  @extend .section-about__background;
+  background-image: url('../images/section-aveda-bg-1.jpg');
+  background-position: 50% 50%;
+  left: 50%;
+  right: 0;
+  width: 50%;
+  @include media-query(sm) {
+    display: block;
+  }
+}
+
+.section-aveda__background--2 {
+  background-image: url('../images/section-aveda-bg-2.jpg');
+  background-position: 0 50%;
+  left: 0;
+  right: auto;
+}

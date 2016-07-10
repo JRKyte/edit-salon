@@ -301,6 +301,22 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
+	"\/css\/sass\/sections\/_aveda.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/css\/sass\/sections\/_aveda.scss",
+		"outputAbbreviatedPath": "\/css\/sass\/css\/_aveda.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
 	"\/css\/sass\/sections\/_contact.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
@@ -674,6 +690,28 @@
 		"initialSize": 75001,
 		"inputAbbreviatedPath": "\/images\/section-about-bg.jpg",
 		"outputAbbreviatedPath": "\/images\/section-about-bg.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/section-aveda-bg-1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 42723,
+		"inputAbbreviatedPath": "\/images\/section-aveda-bg-1.jpg",
+		"outputAbbreviatedPath": "\/images\/section-aveda-bg-1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/section-aveda-bg-2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 353294,
+		"inputAbbreviatedPath": "\/images\/section-aveda-bg-2.jpg",
+		"outputAbbreviatedPath": "\/images\/section-aveda-bg-2.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
