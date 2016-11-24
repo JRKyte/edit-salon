@@ -68,7 +68,7 @@ function init() {
 // Instafeed plugin
 
 // Set size of feed based on screen
-var instafeedLimit = 6;
+var instafeedLimit = 4;
 
 // JS Media query
 if (matchMedia) {
@@ -80,10 +80,10 @@ if (matchMedia) {
 // Check if the media query is true or false
 function WidthChange(mq) {
   if (mq.matches) {
-    instafeedLimit = 36;
+    instafeedLimit = 4;
   }
   else {
-    instafeedLimit = 6;
+    instafeedLimit = 2;
   }
 }
 
@@ -94,19 +94,39 @@ var feed = new Instafeed({
   get: 'user',
   userId: 273726927,
   accessToken: '273726927.1677ed0.40b61ad546f9464e8415bf80bd835258',
-  // Filter by hashtag - currently seems broken on Instafeed.js 4.1
-  filter: function(image) {
-    return image.tags.indexOf('photoshoot') >= 0;
-  },
   template: '<div class="instafeed__item" style="background-image: url({{image}});"><div class="instafeed__item--contaniner"><div class="table"><a href="{{link}}" class="table-cell"><i class="zoom-icon"></i>View large</a></div></div></div>',
-  limit: instafeedLimit,
-  resolution: 'low_resolution',
-  after: function() {
-    // Disable button if no more results to load
-    if (!this.hasNext()) {
-      loadButton.setAttribute('disabled', 'disabled');
-    }
+  limit: 60,
+  resolution: 'standard_resolution',
+  // filter: function(image) {
+  //   return image.tags.indexOf('photoshoot') >= 0;
+  // },
+  before: function() {
+    currentCount = 0;
   },
+  filter: function(image) {
+    // put your real limit here
+    var shouldDisplay = (currentCount < instafeedLimit);
+
+    if (shouldDisplay) {
+      if (image.tags && image.tags.indexOf('photoshoot') >= 0) {
+        currentCount += 1;
+      } else {
+        shouldDisplay = false;
+      }
+    }
+
+    return shouldDisplay;
+  },
+  after: function(){
+    if (currentCount < instafeedLimit) {
+      feed.next();
+    }
+    if (!this.hasNext()) {
+      $(loadButton).hide();
+    } else{
+      $(loadButton).show();
+    }
+  }
 });
 
 // Bind the load more button
