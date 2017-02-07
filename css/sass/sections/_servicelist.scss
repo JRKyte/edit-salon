@@ -40,3 +40,9 @@
 .table-pricing__no-bg {
   background: none !important;
 }
+.price-list-cta {
+  margin-top: 30px ;
+  @include media-query(sm) {
+    margin-top: 80px;
+  }
+}
