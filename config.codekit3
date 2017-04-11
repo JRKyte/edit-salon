@@ -7,7 +7,7 @@
 		"uuidString": "DCBDA3A7-BC18-41B3-ADA3-B42E6DB5ABF8"
 		}
 	],
-"creatorBuild": "25568",
+"creatorBuild": "25813",
 "files": {
 	"\/android-chrome-144x144.png": {
 		"ft": 32768,
@@ -15,7 +15,10 @@
 		"oA": 0,
 		"oAP": "\/android-chrome-144x144.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/android-chrome-192x192.png": {
 		"ft": 32768,
@@ -23,7 +26,10 @@
 		"oA": 0,
 		"oAP": "\/android-chrome-192x192.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/android-chrome-36x36.png": {
 		"ft": 32768,
@@ -31,7 +37,10 @@
 		"oA": 0,
 		"oAP": "\/android-chrome-36x36.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/android-chrome-48x48.png": {
 		"ft": 32768,
@@ -39,7 +48,10 @@
 		"oA": 0,
 		"oAP": "\/android-chrome-48x48.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/android-chrome-72x72.png": {
 		"ft": 32768,
@@ -47,7 +59,10 @@
 		"oA": 0,
 		"oAP": "\/android-chrome-72x72.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/android-chrome-96x96.png": {
 		"ft": 32768,
@@ -55,7 +70,10 @@
 		"oA": 0,
 		"oAP": "\/android-chrome-96x96.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/apple-touch-icon-114x114.png": {
 		"ft": 32768,
@@ -63,7 +81,10 @@
 		"oA": 0,
 		"oAP": "\/apple-touch-icon-114x114.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/apple-touch-icon-120x120.png": {
 		"ft": 32768,
@@ -71,7 +92,10 @@
 		"oA": 0,
 		"oAP": "\/apple-touch-icon-120x120.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/apple-touch-icon-144x144.png": {
 		"ft": 32768,
@@ -79,7 +103,10 @@
 		"oA": 0,
 		"oAP": "\/apple-touch-icon-144x144.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/apple-touch-icon-152x152.png": {
 		"ft": 32768,
@@ -87,7 +114,10 @@
 		"oA": 0,
 		"oAP": "\/apple-touch-icon-152x152.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/apple-touch-icon-180x180.png": {
 		"ft": 32768,
@@ -95,7 +125,10 @@
 		"oA": 0,
 		"oAP": "\/apple-touch-icon-180x180.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/apple-touch-icon-57x57.png": {
 		"ft": 32768,
@@ -103,7 +136,10 @@
 		"oA": 0,
 		"oAP": "\/apple-touch-icon-57x57.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/apple-touch-icon-60x60.png": {
 		"ft": 32768,
@@ -111,7 +147,10 @@
 		"oA": 0,
 		"oAP": "\/apple-touch-icon-60x60.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/apple-touch-icon-72x72.png": {
 		"ft": 32768,
@@ -119,7 +158,10 @@
 		"oA": 0,
 		"oAP": "\/apple-touch-icon-72x72.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/apple-touch-icon-76x76.png": {
 		"ft": 32768,
@@ -127,7 +169,10 @@
 		"oA": 0,
 		"oAP": "\/apple-touch-icon-76x76.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/apple-touch-icon-precomposed.png": {
 		"ft": 32768,
@@ -135,7 +180,10 @@
 		"oA": 0,
 		"oAP": "\/apple-touch-icon-precomposed.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/apple-touch-icon.png": {
 		"ft": 32768,
@@ -143,7 +191,10 @@
 		"oA": 0,
 		"oAP": "\/apple-touch-icon.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/browserconfig.xml": {
 		"ft": 8192,
@@ -561,7 +612,10 @@
 		"oA": 0,
 		"oAP": "\/favicon-16x16.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/favicon-194x194.png": {
 		"ft": 32768,
@@ -569,7 +623,10 @@
 		"oA": 0,
 		"oAP": "\/favicon-194x194.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/favicon-32x32.png": {
 		"ft": 32768,
@@ -577,7 +634,10 @@
 		"oA": 0,
 		"oAP": "\/favicon-32x32.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/favicon-96x96.png": {
 		"ft": 32768,
@@ -585,7 +645,10 @@
 		"oA": 0,
 		"oAP": "\/favicon-96x96.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/favicon.ico": {
 		"ft": 8192,
@@ -605,7 +668,10 @@
 		"oA": 0,
 		"oAP": "\/images\/arrow.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/images\/arrow.svg": {
 		"ft": 2097152,
@@ -623,7 +689,10 @@
 		"oA": 0,
 		"oAP": "\/images\/facebook.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/images\/facebook.svg": {
 		"ft": 2097152,
@@ -641,7 +710,10 @@
 		"oA": 0,
 		"oAP": "\/images\/hero-logo.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/images\/hero-mobile.jpg": {
 		"ft": 16384,
@@ -649,7 +721,9 @@
 		"oA": 0,
 		"oAP": "\/images\/hero-mobile.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/images\/hero.jpg": {
 		"ft": 16384,
@@ -657,7 +731,9 @@
 		"oA": 0,
 		"oAP": "\/images\/hero.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/images\/instagram.png": {
 		"ft": 32768,
@@ -665,7 +741,10 @@
 		"oA": 0,
 		"oAP": "\/images\/instagram.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/images\/instagram.svg": {
 		"ft": 2097152,
@@ -683,7 +762,10 @@
 		"oA": 0,
 		"oAP": "\/images\/load-more-bg.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/images\/load-more-bg.svg": {
 		"ft": 2097152,
@@ -701,7 +783,10 @@
 		"oA": 0,
 		"oAP": "\/images\/map-marker.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/images\/product-aveda.png": {
 		"ft": 32768,
@@ -709,7 +794,10 @@
 		"oA": 0,
 		"oAP": "\/images\/product-aveda.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/images\/product-balmain.png": {
 		"ft": 32768,
@@ -717,15 +805,10 @@
 		"oA": 0,
 		"oAP": "\/images\/product-balmain.png",
 		"oF": 0,
-		"opt": 0
-		},
-	"\/images\/product-evo.png": {
-		"ft": 32768,
-		"iS": 2507,
-		"oA": 0,
-		"oAP": "\/images\/product-evo.png",
-		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/images\/product-hd.png": {
 		"ft": 32768,
@@ -733,7 +816,10 @@
 		"oA": 0,
 		"oAP": "\/images\/product-hd.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/images\/product-loreal.png": {
 		"ft": 32768,
@@ -741,7 +827,10 @@
 		"oA": 0,
 		"oAP": "\/images\/product-loreal.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/images\/product-moroccan.png": {
 		"ft": 32768,
@@ -749,7 +838,10 @@
 		"oA": 0,
 		"oAP": "\/images\/product-moroccan.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/images\/product-wella.png": {
 		"ft": 32768,
@@ -757,7 +849,10 @@
 		"oA": 0,
 		"oAP": "\/images\/product-wella.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/images\/product-whitetobrown.png": {
 		"ft": 32768,
@@ -765,7 +860,10 @@
 		"oA": 0,
 		"oAP": "\/images\/product-whitetobrown.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/images\/section-about-bg.jpg": {
 		"ft": 16384,
@@ -773,7 +871,9 @@
 		"oA": 0,
 		"oAP": "\/images\/section-about-bg.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/images\/section-aveda-bg-1.jpg": {
 		"ft": 16384,
@@ -781,7 +881,9 @@
 		"oA": 0,
 		"oAP": "\/images\/section-aveda-bg-1.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/images\/section-aveda-bg-2.jpg": {
 		"ft": 16384,
@@ -789,7 +891,9 @@
 		"oA": 0,
 		"oAP": "\/images\/section-aveda-bg-2.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/images\/twitter.png": {
 		"ft": 32768,
@@ -797,7 +901,10 @@
 		"oA": 0,
 		"oAP": "\/images\/twitter.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/images\/twitter.svg": {
 		"ft": 2097152,
@@ -815,7 +922,10 @@
 		"oA": 0,
 		"oAP": "\/images\/zoom-icon.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/images\/zoom-icon.svg": {
 		"ft": 2097152,
@@ -896,7 +1006,10 @@
 		"oA": 0,
 		"oAP": "\/mstile-144x144.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/mstile-150x150.png": {
 		"ft": 32768,
@@ -904,7 +1017,10 @@
 		"oA": 0,
 		"oAP": "\/mstile-150x150.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/mstile-310x150.png": {
 		"ft": 32768,
@@ -912,7 +1028,10 @@
 		"oA": 0,
 		"oAP": "\/mstile-310x150.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/mstile-310x310.png": {
 		"ft": 32768,
@@ -920,7 +1039,10 @@
 		"oA": 0,
 		"oAP": "\/mstile-310x310.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/mstile-70x70.png": {
 		"ft": 32768,
@@ -928,7 +1050,10 @@
 		"oA": 0,
 		"oAP": "\/mstile-70x70.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/safari-pinned-tab.svg": {
 		"ft": 2097152,
@@ -1621,6 +1746,10 @@
 			"active": 1,
 			"optionString": ""
 			},
+		"no-compare-neg-zero": {
+			"active": 0,
+			"optionString": ""
+			},
 		"no-cond-assign": {
 			"active": 1,
 			"optionString": "'except-parens'"
@@ -1905,6 +2034,10 @@
 			"active": 0,
 			"optionString": ""
 			},
+		"no-prototype-builtins": {
+			"active": 0,
+			"optionString": ""
+			},
 		"no-redeclare": {
 			"active": 1,
 			"optionString": "{'builtinGlobals': false}"
@@ -2100,6 +2233,10 @@
 		"no-with": {
 			"active": 0,
 			"optionString": ""
+			},
+		"nonblock-statement-body-position": {
+			"active": 0,
+			"optionString": "'beside'"
 			},
 		"object-curly-newline": {
 			"active": 0,
@@ -2700,7 +2837,8 @@
 		"autoOutputPathRelativePath": "",
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
-		"autoOutputPathStyle": 0
+		"autoOutputPathStyle": 0,
+		"quality": 100
 		},
 	"languageDefaultsJS": {
 		"autoOutputAction": 0,
@@ -2723,14 +2861,6 @@
 		"autoOutputPathStyle": 0,
 		"orderOutput": 0,
 		"outputStyle": 1
-		},
-	"languageDefaultsJSX": {
-		"autoOutputAction": 0,
-		"autoOutputPathFilenamePattern": "*.js",
-		"autoOutputPathRelativePath": "",
-		"autoOutputPathReplace1": "jsx",
-		"autoOutputPathReplace2": "js",
-		"autoOutputPathStyle": 0
 		},
 	"languageDefaultsKIT": {
 		"autoOutputAction": 0,
@@ -2793,7 +2923,9 @@
 		"autoOutputPathRelativePath": "",
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
-		"autoOutputPathStyle": 0
+		"autoOutputPathStyle": 0,
+		"optimizerType": 1,
+		"quality": 100
 		},
 	"languageDefaultsPUG": {
 		"autoOutputAction": 0,
