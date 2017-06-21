@@ -937,25 +937,6 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/index.haml": {
-		"cDA": 0,
-		"eHT": 0,
-		"ft": 256,
-		"nEA": 0,
-		"oA": 0,
-		"oAP": "\/index.html",
-		"oF": 0,
-		"oFM": 2,
-		"oS": 0,
-		"uDQ": 0,
-		"uUN": 0
-		},
-	"\/index.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/index.html",
-		"oF": 0
-		},
 	"\/js\/instafeed.js": {
 		"ft": 64,
 		"mi": 1,
