@@ -7,7 +7,7 @@
 		"uuidString": "DCBDA3A7-BC18-41B3-ADA3-B42E6DB5ABF8"
 		}
 	],
-"creatorBuild": "25900",
+"creatorBuild": "26097",
 "files": {
 	"\/android-chrome-144x144.png": {
 		"ft": 32768,
@@ -197,192 +197,224 @@
 		"q": 100
 		},
 	"\/browserconfig.xml": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/browserconfig.xml",
 		"oF": 0
 		},
 	"\/CNAME": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/CNAME",
 		"oF": 0
 		},
 	"\/css\/.sass-cache\/0189db4a0aecb1dba7d972c63bb13077e91c6961\/style.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/css\/.sass-cache\/0189db4a0aecb1dba7d972c63bb13077e91c6961\/style.scssc",
 		"oF": 0
 		},
 	"\/css\/.sass-cache\/4084f9e46a332f660c9af9cb5a81b72751d0b0b5\/_about.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/css\/.sass-cache\/4084f9e46a332f660c9af9cb5a81b72751d0b0b5\/_about.scssc",
 		"oF": 0
 		},
 	"\/css\/.sass-cache\/4084f9e46a332f660c9af9cb5a81b72751d0b0b5\/_contact.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/css\/.sass-cache\/4084f9e46a332f660c9af9cb5a81b72751d0b0b5\/_contact.scssc",
 		"oF": 0
 		},
 	"\/css\/.sass-cache\/4084f9e46a332f660c9af9cb5a81b72751d0b0b5\/_footer.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/css\/.sass-cache\/4084f9e46a332f660c9af9cb5a81b72751d0b0b5\/_footer.scssc",
 		"oF": 0
 		},
 	"\/css\/.sass-cache\/4084f9e46a332f660c9af9cb5a81b72751d0b0b5\/_hero.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/css\/.sass-cache\/4084f9e46a332f660c9af9cb5a81b72751d0b0b5\/_hero.scssc",
 		"oF": 0
 		},
 	"\/css\/.sass-cache\/4084f9e46a332f660c9af9cb5a81b72751d0b0b5\/_products.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/css\/.sass-cache\/4084f9e46a332f660c9af9cb5a81b72751d0b0b5\/_products.scssc",
 		"oF": 0
 		},
 	"\/css\/.sass-cache\/4084f9e46a332f660c9af9cb5a81b72751d0b0b5\/_servicelist.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/css\/.sass-cache\/4084f9e46a332f660c9af9cb5a81b72751d0b0b5\/_servicelist.scssc",
 		"oF": 0
 		},
 	"\/css\/.sass-cache\/4084f9e46a332f660c9af9cb5a81b72751d0b0b5\/_times.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/css\/.sass-cache\/4084f9e46a332f660c9af9cb5a81b72751d0b0b5\/_times.scssc",
 		"oF": 0
 		},
 	"\/css\/.sass-cache\/5288b0879c9b000ee706a69b27129cd50acc50bd\/_helpers.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/css\/.sass-cache\/5288b0879c9b000ee706a69b27129cd50acc50bd\/_helpers.scssc",
 		"oF": 0
 		},
 	"\/css\/.sass-cache\/5288b0879c9b000ee706a69b27129cd50acc50bd\/_nav.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/css\/.sass-cache\/5288b0879c9b000ee706a69b27129cd50acc50bd\/_nav.scssc",
 		"oF": 0
 		},
 	"\/css\/.sass-cache\/5288b0879c9b000ee706a69b27129cd50acc50bd\/_reset.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/css\/.sass-cache\/5288b0879c9b000ee706a69b27129cd50acc50bd\/_reset.scssc",
 		"oF": 0
 		},
 	"\/css\/.sass-cache\/5288b0879c9b000ee706a69b27129cd50acc50bd\/_scaffold.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/css\/.sass-cache\/5288b0879c9b000ee706a69b27129cd50acc50bd\/_scaffold.scssc",
 		"oF": 0
 		},
 	"\/css\/.sass-cache\/5288b0879c9b000ee706a69b27129cd50acc50bd\/_type.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/css\/.sass-cache\/5288b0879c9b000ee706a69b27129cd50acc50bd\/_type.scssc",
 		"oF": 0
 		},
 	"\/css\/.sass-cache\/ca39881a4ea69215e7eda321a3da3f58a5e4483b\/style.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/css\/.sass-cache\/ca39881a4ea69215e7eda321a3da3f58a5e4483b\/style.scssc",
 		"oF": 0
 		},
 	"\/css\/.sass-cache\/df4c5156f04a2691c1d3604fd9b7e506b0bc08fa\/_about.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/css\/.sass-cache\/df4c5156f04a2691c1d3604fd9b7e506b0bc08fa\/_about.scssc",
 		"oF": 0
 		},
 	"\/css\/.sass-cache\/df4c5156f04a2691c1d3604fd9b7e506b0bc08fa\/_aveda.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/css\/.sass-cache\/df4c5156f04a2691c1d3604fd9b7e506b0bc08fa\/_aveda.scssc",
 		"oF": 0
 		},
 	"\/css\/.sass-cache\/df4c5156f04a2691c1d3604fd9b7e506b0bc08fa\/_contact.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/css\/.sass-cache\/df4c5156f04a2691c1d3604fd9b7e506b0bc08fa\/_contact.scssc",
 		"oF": 0
 		},
 	"\/css\/.sass-cache\/df4c5156f04a2691c1d3604fd9b7e506b0bc08fa\/_footer.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/css\/.sass-cache\/df4c5156f04a2691c1d3604fd9b7e506b0bc08fa\/_footer.scssc",
 		"oF": 0
 		},
 	"\/css\/.sass-cache\/df4c5156f04a2691c1d3604fd9b7e506b0bc08fa\/_gallery.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/css\/.sass-cache\/df4c5156f04a2691c1d3604fd9b7e506b0bc08fa\/_gallery.scssc",
 		"oF": 0
 		},
 	"\/css\/.sass-cache\/df4c5156f04a2691c1d3604fd9b7e506b0bc08fa\/_hero.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/css\/.sass-cache\/df4c5156f04a2691c1d3604fd9b7e506b0bc08fa\/_hero.scssc",
 		"oF": 0
 		},
 	"\/css\/.sass-cache\/df4c5156f04a2691c1d3604fd9b7e506b0bc08fa\/_products.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/css\/.sass-cache\/df4c5156f04a2691c1d3604fd9b7e506b0bc08fa\/_products.scssc",
 		"oF": 0
 		},
 	"\/css\/.sass-cache\/df4c5156f04a2691c1d3604fd9b7e506b0bc08fa\/_servicelist.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/css\/.sass-cache\/df4c5156f04a2691c1d3604fd9b7e506b0bc08fa\/_servicelist.scssc",
 		"oF": 0
 		},
 	"\/css\/.sass-cache\/df4c5156f04a2691c1d3604fd9b7e506b0bc08fa\/_times.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/css\/.sass-cache\/df4c5156f04a2691c1d3604fd9b7e506b0bc08fa\/_times.scssc",
 		"oF": 0
 		},
 	"\/css\/.sass-cache\/f0105c6944087ed61148596e7dfff915afb0496d\/_helpers.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/css\/.sass-cache\/f0105c6944087ed61148596e7dfff915afb0496d\/_helpers.scssc",
 		"oF": 0
 		},
 	"\/css\/.sass-cache\/f0105c6944087ed61148596e7dfff915afb0496d\/_hero.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/css\/.sass-cache\/f0105c6944087ed61148596e7dfff915afb0496d\/_hero.scssc",
 		"oF": 0
 		},
 	"\/css\/.sass-cache\/f0105c6944087ed61148596e7dfff915afb0496d\/_mixins.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/css\/.sass-cache\/f0105c6944087ed61148596e7dfff915afb0496d\/_mixins.scssc",
 		"oF": 0
 		},
 	"\/css\/.sass-cache\/f0105c6944087ed61148596e7dfff915afb0496d\/_nav.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/css\/.sass-cache\/f0105c6944087ed61148596e7dfff915afb0496d\/_nav.scssc",
 		"oF": 0
 		},
 	"\/css\/.sass-cache\/f0105c6944087ed61148596e7dfff915afb0496d\/_reset.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/css\/.sass-cache\/f0105c6944087ed61148596e7dfff915afb0496d\/_reset.scssc",
 		"oF": 0
 		},
 	"\/css\/.sass-cache\/f0105c6944087ed61148596e7dfff915afb0496d\/_scaffold.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/css\/.sass-cache\/f0105c6944087ed61148596e7dfff915afb0496d\/_scaffold.scssc",
 		"oF": 0
 		},
 	"\/css\/.sass-cache\/f0105c6944087ed61148596e7dfff915afb0496d\/_type.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/css\/.sass-cache\/f0105c6944087ed61148596e7dfff915afb0496d\/_type.scssc",
@@ -651,12 +683,14 @@
 		"q": 100
 		},
 	"\/favicon.ico": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/favicon.ico",
 		"oF": 0
 		},
 	"\/google092d5ae9a6becad9.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/google092d5ae9a6becad9.html",
@@ -938,6 +972,7 @@
 		"prP": 0
 		},
 	"\/index.haml": {
+		"cB": 0,
 		"cDA": 0,
 		"eHT": 0,
 		"ft": 256,
@@ -951,6 +986,7 @@
 		"uUN": 0
 		},
 	"\/index.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/index.html",
@@ -1614,6 +1650,10 @@
 			"active": 0,
 			"optionString": "'expression'"
 			},
+		"function-paren-newline": {
+			"active": 0,
+			"optionString": "'multiline'"
+			},
 		"generator-star-spacing": {
 			"active": 0,
 			"optionString": "{'before': true, 'after': false}"
@@ -1678,9 +1718,9 @@
 			"active": 0,
 			"optionString": "{'beforeBlockComment': true}"
 			},
-		"lines-around-directive": {
+		"lines-between-class-members": {
 			"active": 0,
-			"optionString": "{'before': 'always', 'after': 'always'}"
+			"optionString": "'always', {exceptAfterSingleLine: false}"
 			},
 		"max-depth": {
 			"active": 0,
@@ -1710,6 +1750,10 @@
 			"active": 0,
 			"optionString": "{'max': 1}"
 			},
+		"multiline-comment-style": {
+			"active": 0,
+			"optionString": "'starred-block'"
+			},
 		"multiline-ternary": {
 			"active": 0,
 			"optionString": "'always'"
@@ -1719,14 +1763,6 @@
 			"optionString": "{'newIsCap': true, 'capIsNew': true, 'newIsCapExceptions': [], 'capIsNewExceptions': ['Array', 'Boolean', 'Date', 'Error', 'Function', 'Number', 'Object', 'RegExp', 'String', 'Symbol'], 'properties': true}"
 			},
 		"new-parens": {
-			"active": 0,
-			"optionString": ""
-			},
-		"newline-after-var": {
-			"active": 0,
-			"optionString": "'always'"
-			},
-		"newline-before-return": {
 			"active": 0,
 			"optionString": ""
 			},
@@ -2830,7 +2866,8 @@
 		"createSourceMap": 0,
 		"minifyOutput": 1,
 		"outputStyle": 0,
-		"syntaxCheckerStyle": 1
+		"syntaxCheckerStyle": 1,
+		"transpilerStyle": 1
 		},
 	"languageDefaultsCSS": {
 		"autoOutputAction": 2,
@@ -2863,6 +2900,7 @@
 		"noEscapeInAttributes": 0,
 		"outputFormat": 2,
 		"outputStyle": 0,
+		"shouldRunCacheBuster": 0,
 		"useCDATA": 0,
 		"useDoubleQuotes": 0,
 		"useUnixNewlines": 0
@@ -2904,7 +2942,8 @@
 		"autoOutputPathRelativePath": "",
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
-		"autoOutputPathStyle": 0
+		"autoOutputPathStyle": 0,
+		"shouldRunCacheBuster": 0
 		},
 	"languageDefaultsLESS": {
 		"allowInsecureImports": 0,
@@ -2936,13 +2975,13 @@
 		"enableFootnotes": 1,
 		"enableLabels": 1,
 		"enableSmartQuotes": 1,
-		"escapeLineBreaks": 0,
 		"maskEmailAddresses": 1,
 		"outputFormat": 0,
 		"outputStyle": 0,
 		"parseMetadata": 1,
 		"processHTML": 0,
 		"randomFootnoteNumbers": 0,
+		"shouldRunCacheBuster": 0,
 		"useCompatibilityMode": 0
 		},
 	"languageDefaultsOTHER": {
@@ -2951,7 +2990,8 @@
 		"autoOutputPathRelativePath": "",
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
-		"autoOutputPathStyle": 0
+		"autoOutputPathStyle": 0,
+		"shouldRunCacheBuster": 0
 		},
 	"languageDefaultsPNG": {
 		"autoOutputAction": 0,
@@ -2971,7 +3011,8 @@
 		"autoOutputPathReplace2": "",
 		"autoOutputPathStyle": 0,
 		"compileDebug": 1,
-		"outputStyle": 0
+		"outputStyle": 0,
+		"shouldRunCacheBuster": 0
 		},
 	"languageDefaultsSASS": {
 		"autoOutputAction": 0,
@@ -2999,7 +3040,8 @@
 		"logicless": 0,
 		"outputFormat": 0,
 		"outputStyle": 1,
-		"railsCompatible": 0
+		"railsCompatible": 0,
+		"shouldRunCacheBuster": 0
 		},
 	"languageDefaultsSTYLUS": {
 		"autoOutputAction": 0,
