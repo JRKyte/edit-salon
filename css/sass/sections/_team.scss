@@ -1,0 +1,30 @@
+.section-team {
+  background: #FFFFFF;
+}
+.section-team__container {
+  max-width: 1600px;
+  margin: 0 auto;
+  overflow-x: scroll;
+  overflow-y: hidden;
+}
+.team-list {
+  list-style: none;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: row;
+  @include media-query(sm) {
+    flex-wrap: nowrap;
+  }
+}
+.team-list__item {
+  flex: 1;
+  min-width: 300px;
+}
+.team-list__photo {
+
+}
+.team-list__bio {
+  padding: 15px;
+}
