@@ -7,7 +7,7 @@
 		"uuidString": "DCBDA3A7-BC18-41B3-ADA3-B42E6DB5ABF8"
 		}
 	],
-"creatorBuild": "26097",
+"creatorBuild": "26148",
 "files": {
 	"\/android-chrome-144x144.png": {
 		"ft": 32768,
@@ -709,6 +709,16 @@
 		"oAP": "\/google092d5ae9a6becad9.html",
 		"oF": 0
 		},
+	"\/images\/Abby.jpg": {
+		"ft": 16384,
+		"iS": 37479,
+		"oA": 0,
+		"oAP": "\/images\/Abby.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/images\/arrow.png": {
 		"ft": 32768,
 		"iS": 196,
@@ -729,6 +739,16 @@
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
+		},
+	"\/images\/Becky.jpg": {
+		"ft": 16384,
+		"iS": 37415,
+		"oA": 0,
+		"oAP": "\/images\/Becky.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/images\/facebook.png": {
 		"ft": 32768,
@@ -803,6 +823,16 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"\/images\/Lindsey.jpg": {
+		"ft": 16384,
+		"iS": 42828,
+		"oA": 0,
+		"oAP": "\/images\/Lindsey.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/images\/load-more-bg.png": {
 		"ft": 32768,
 		"iS": 1680,
@@ -824,6 +854,16 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"\/images\/Lois.jpg": {
+		"ft": 16384,
+		"iS": 38655,
+		"oA": 0,
+		"oAP": "\/images\/Lois.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/images\/map-marker.png": {
 		"ft": 32768,
 		"iS": 857,
@@ -833,6 +873,16 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
+		"q": 100
+		},
+	"\/images\/Nicola.jpg": {
+		"ft": 16384,
+		"iS": 37605,
+		"oA": 0,
+		"oAP": "\/images\/Nicola.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
 		"q": 100
 		},
 	"\/images\/product-aveda.png": {

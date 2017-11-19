@@ -1,9 +1,9 @@
 .section-footer {
   background-color: #1B1B1B;
   text-align: center;
-  padding: 30px 0 20px;
+  padding: 30px 0 95px;
   @include media-query(sm) {
-    padding: 80px 0 30px;
+    padding: 80px 0 95px;
   }
 }
 .list-social {
