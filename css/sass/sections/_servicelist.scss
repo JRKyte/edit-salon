@@ -38,7 +38,10 @@
   }
 }
 .table-pricing__no-bg {
-  background: none !important;
+  background-color: transparent !important;
+}
+.table-pricing__bg {
+  background-color: #262626 !important;
 }
 .price-list-cta {
   margin-top: 30px ;
