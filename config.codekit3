@@ -1013,6 +1013,17 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"\/images\/Zoe.png": {
+		"ft": 32768,
+		"iS": 56409,
+		"oA": 0,
+		"oAP": "\/images\/Zoe.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/images\/zoom-icon.png": {
 		"ft": 32768,
 		"iS": 670,
