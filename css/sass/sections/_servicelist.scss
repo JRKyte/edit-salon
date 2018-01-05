@@ -11,7 +11,7 @@
   margin-bottom: 30px;
   th {
     text-align: left;
-    font-size: 25px;
+    font-size: 18px;
     line-height: 29px;
     font-family: $heading-font;
     text-transform: uppercase;
@@ -19,7 +19,6 @@
     border-bottom: 1px solid #606060;
     padding: 0 10px 10px;
     + th {
-      width: 50px;
       text-align: center;
     }
   }
@@ -27,7 +26,6 @@
     font-size: 14px;
     padding: 15px 10px;
     + td {
-      width: 50px;
       text-align: center;
     }
   }
