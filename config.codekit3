@@ -7,7 +7,7 @@
 		"uuidString": "DCBDA3A7-BC18-41B3-ADA3-B42E6DB5ABF8"
 		}
 	],
-"creatorBuild": "26330",
+"creatorBuild": "26680",
 "files": {
 	"\/android-chrome-144x144.png": {
 		"ft": 32768,
@@ -712,6 +712,7 @@
 	"\/images\/Abby.jpg": {
 		"ft": 16384,
 		"iS": 37479,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/Abby.jpg",
 		"oF": 0,
@@ -743,6 +744,7 @@
 	"\/images\/Becky.jpg": {
 		"ft": 16384,
 		"iS": 37415,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/Becky.jpg",
 		"oF": 0,
@@ -785,6 +787,7 @@
 	"\/images\/hero-mobile.jpg": {
 		"ft": 16384,
 		"iS": 19089,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/hero-mobile.jpg",
 		"oF": 0,
@@ -795,6 +798,7 @@
 	"\/images\/hero.jpg": {
 		"ft": 16384,
 		"iS": 102569,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/hero.jpg",
 		"oF": 0,
@@ -826,6 +830,7 @@
 	"\/images\/Lindsey.jpg": {
 		"ft": 16384,
 		"iS": 42828,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/Lindsey.jpg",
 		"oF": 0,
@@ -857,6 +862,7 @@
 	"\/images\/Lois.jpg": {
 		"ft": 16384,
 		"iS": 38655,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/Lois.jpg",
 		"oF": 0,
@@ -878,6 +884,7 @@
 	"\/images\/Nicola.jpg": {
 		"ft": 16384,
 		"iS": 37605,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/Nicola.jpg",
 		"oF": 0,
@@ -965,6 +972,7 @@
 	"\/images\/section-about-bg.jpg": {
 		"ft": 16384,
 		"iS": 75001,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/section-about-bg.jpg",
 		"oF": 0,
@@ -975,6 +983,7 @@
 	"\/images\/section-aveda-bg-1.jpg": {
 		"ft": 16384,
 		"iS": 42723,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/section-aveda-bg-1.jpg",
 		"oF": 0,
@@ -985,6 +994,7 @@
 	"\/images\/section-aveda-bg-2.jpg": {
 		"ft": 16384,
 		"iS": 353294,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/section-aveda-bg-2.jpg",
 		"oF": 0,
@@ -1188,7 +1198,8 @@
 	"creationDate": 501611164,
 	"displayValue": "edit-salon",
 	"displayValueWasSetByUser": 0,
-	"iconImageName": "\/apple-touch-icon.png"
+	"iconImageName": "\/apple-touch-icon-120x120.png",
+	"iconImageWasSetByUser": 0
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
@@ -2991,6 +3002,7 @@
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
 		"autoOutputPathStyle": 0,
+		"outputFormat": 0,
 		"quality": 100
 		},
 	"languageDefaultsJS": {
