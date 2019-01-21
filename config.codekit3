@@ -1077,6 +1077,13 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"/index.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "/index.html",
+		"oF": 0
+		},
 	"/index.slim": {
 		"cB": 0,
 		"cmO": 0,
