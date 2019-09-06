@@ -1014,6 +1014,17 @@
 		"oT": 1,
 		"q": 100
 		},
+	"/images/product-redken.png": {
+		"ft": 32768,
+		"iS": 7438,
+		"oA": 0,
+		"oAP": "/images/product-redken.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"/images/product-wella.png": {
 		"ft": 32768,
 		"iS": 3303,
