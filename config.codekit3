@@ -775,6 +775,17 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"/images/Becky.jpg": {
+		"ft": 16384,
+		"iS": 37415,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/Becky.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/images/Elise.jpg": {
 		"ft": 16384,
 		"iS": 29516,
@@ -935,17 +946,6 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
-		"q": 100
-		},
-	"/images/Nicola.jpg": {
-		"ft": 16384,
-		"iS": 37605,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/images/Nicola.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
 		"q": 100
 		},
 	"/images/product-aveda.png": {
