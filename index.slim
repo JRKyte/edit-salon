@@ -188,26 +188,6 @@ html
                     strong Makeup Artist
                   p.small-text Zoe is a freelance makeup artist that works along side the team at Edit. With over 8 years in the makeup industry having previously worked as an international trainer for the UK makeup brand Illamasqua. She has worked on London and Paris Fashion week including keying looks for many leading shows. Zoe is known for working on Editorial pieces for Ok magazine, Cosmopolitan magazine and Glamour magazine. Passionate about finding individual looks for her clients to make them feel the best they have ever felt.
 
-      / #section-aveda
-      /   .section-aveda.section-aveda--dark
-      /     .section-aveda__background--1
-      /     .row
-      /       .col-half.col-half-left.section-aveda__text.section-aveda__text--dark
-      /         h3 Aveda
-      /         p.paragraph-margin Here is a little information on why we think Aveda is so great! 
-      /
-      /         p The art and science of pure flower and plant essences is the core of Aveda. Our beauty products are alive with the life force of plants, and contain pure essential oils. Our solutions are so powerful we call them purescriptions™. while we specialise in hair care, we offer other plant–based products-skin care, makeup, pure-fume™, aromas and lifestyle-that are all professionally developed, clinically tested, and go to exceptional lengths to be respectful of the earth. our professional network, nearly 7,000 salons and spas worldwide, shares our commitment. ever since a hairdresser founded aveda in 1978, our products have been harvested with respect for the earth, in harmony with the web of life. 
-      /
-      /   .section-aveda
-      /     .section-aveda__background--2
-      /     .row
-      /       .col-half.col-half-right.section-about__text
-      /         h3 Connecting beauty, environment and well-being.
-      /
-      /         p.paragraph-margin Our mission at Aveda is to care for the world we live in, from the products we make to the ways in which we give back to society. At Aveda, we strive to set an example for environmental leadership and responsibility, not just in the world of beauty, but around the world.
-      /
-      /         p Our green ingredient promise at aveda, we continually strive to increase our use of naturally derived ingredients, i.e. those in which more than 50% of the molecule comes from a plant, non-petroleum mineral, or other natural source, like water. We set other standards for use, too, like avoiding certain types of processing. Aveda do NOT test on animals!
-
       // SECTION SERVICE LIST
       .section-servicelist#section-servicelist
         .row
@@ -641,13 +621,13 @@ html
               h3.text-center
                 | We also sell gift vouchers!
 
-      /!/ SECTION GALLERY
+      // SECTION GALLERY
       .section-gallery#section-gallery
         #instafeed
         #load-more
           .sr-only Load more images in feed
 
-      /!/ SECTION PRODUCTS
+      // SECTION PRODUCTS
       .section-products
         .row
           .section-products__table
@@ -658,7 +638,7 @@ html
             .section-products__table-cell
               img src="images/product-moroccan.png" alt="Product logo for Moroccan"
 
-      /!/ SECTION CONTACT
+      // SECTION CONTACT
       .section-contact#section-contact
         .row
           .col-half.section-contact__text
@@ -680,7 +660,7 @@ html
           a href= "https://www.google.co.uk/maps/place/40+Main+St,+Aughton,+Sheffield,+South+Yorkshire+S26/@53.3735446,-1.3178727,17z/data=!4m2!3m1!1s0x48799e064a9277f7:0x44a6fa4c125c00af" class="section-contact__map--overlay" target="_blank"
           #map
 
-      /!/ SECTION FOOTER
+      // SECTION FOOTER
       .section-footer
         .row
           h3 Follow us on
@@ -692,8 +672,8 @@ html
             li
               a href="https://twitter.com/edit_salon" id="list-social--twitter" Link to Twitter
           p.small-text
-            | Edit Salon - 40 Main Street, Aughton, Sheffield, S26 3XJ - Website by
-            a href="http://www.kyte.design" kyte.design
+            | Edit Salon - 40 Main Street, Aughton, Sheffield, S26 3XJ - Website by 
+            a href="http://www.kytedigital.co.uk" kyte.
 
     link href="css/style.css" rel="stylesheet" type="text/css"
     link href="https://fonts.googleapis.com/css?family=Open+Sans|Oswald:300" rel="stylesheet"
@@ -701,3 +681,7 @@ html
     script src="js/min/instafeed-min.js"
     script src="https://maps.googleapis.com/maps/api/js?sensor=false" type="text/javascript"
     script src="js/min/scripts-min.js"
+
+    script src="https://booking-widget.phorestcdn.com/obwidget.bundle.js"
+    javascript:
+      window.widget = new OBWidget('editsalon')
