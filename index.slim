@@ -62,8 +62,18 @@ html
           .row
             h3 Opening times
             .times-container
-              .times-item.hide
-              .times-item.hide
+              .times-item
+                .times-day__heading
+                  | Monday
+                  .visible-sm
+                    | /
+                .times-day__detail
+                  div
+                    span.hidden-sm Open -
+                    | 10:00
+                  div
+                    span.hidden-sm Close
+                    | - 17:00
               .times-item
                 .times-day__heading
                   | Tuesday
@@ -632,11 +642,7 @@ html
         .row
           .section-products__table
             .section-products__table-cell
-              img src="images/product-whitetobrown.png" alt="Product logo for white to brown"
-            .section-products__table-cell
               img src="images/product-redken.png" alt="Product logo for Redken"
-            .section-products__table-cell
-              img src="images/product-moroccan.png" alt="Product logo for Moroccan"
 
       // SECTION CONTACT
       .section-contact#section-contact
