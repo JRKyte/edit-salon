@@ -2,10 +2,7 @@
   background: #FFFFFF;
 }
 .section-team__container {
-  max-width: 1600px;
-  margin: 0 auto;
-  overflow-x: scroll;
-  overflow-y: hidden;
+
 }
 .team-list {
   list-style: none;
@@ -13,17 +10,17 @@
   margin: 0;
   padding: 0;
   display: flex;
-  flex-wrap: row;
-  @include media-query(sm) {
-    flex-wrap: nowrap;
-  }
+  flex-wrap: wrap;
 }
 .team-list__item {
-  flex: 1;
-  min-width: 300px;
-}
-.team-list__photo {
+  flex: 1 1 50%;
 
+  @include media-query(sm) {
+    flex-basis: 33%;
+  }
+}
+.team-list__photo img {
+  width: 100%;
 }
 .team-list__bio {
   padding: 15px;

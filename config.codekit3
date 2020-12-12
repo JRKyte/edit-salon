@@ -1044,24 +1044,13 @@
 		"oS": 1,
 		"rAC": 0
 		},
-	"/js/instafeed.js": {
+	"/js/instagramfeed.js": {
 		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "/js/min/instafeed-min.js",
-		"oF": 0,
-		"sC": 0,
-		"tS": 0
-		},
-	"/js/min/instafeed-min.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 1,
-		"oAP": "/js/min/min/instafeed-min-min.js",
+		"oAP": "/js/min/instagramfeed-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
