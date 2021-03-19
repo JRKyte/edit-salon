@@ -786,17 +786,6 @@
 		"opt": 0,
 		"q": 100
 		},
-	"/images/Elise.jpg": {
-		"ft": 16384,
-		"iS": 29516,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/images/Elise.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
 	"/images/facebook.png": {
 		"ft": 32768,
 		"iS": 577,
@@ -1051,6 +1040,17 @@
 		"mi": 1,
 		"oA": 0,
 		"oAP": "/js/min/instagramfeed-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/js/min/instagramfeed-min.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/js/min/min/instagramfeed-min-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
