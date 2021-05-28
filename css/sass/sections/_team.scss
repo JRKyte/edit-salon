@@ -16,7 +16,7 @@
   flex: 1 1 50%;
 
   @include media-query(sm) {
-    flex-basis: 33%;
+    flex: 0 1 25%;
   }
 }
 .team-list__photo img {
