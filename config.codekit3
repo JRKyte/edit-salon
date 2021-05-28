@@ -937,6 +937,17 @@
 		"oT": 1,
 		"q": 100
 		},
+	"/images/no_user.jpg": {
+		"ft": 16384,
+		"iS": 7930,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/no_user.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/images/product-redken.png": {
 		"ft": 32768,
 		"iS": 7438,
