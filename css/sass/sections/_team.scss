@@ -16,7 +16,7 @@
   flex: 1 1 50%;
 
   @include media-query(sm) {
-    flex: 0 1 25%;
+    flex: 1 1 33%;
   }
 }
 .team-list__photo img {
@@ -24,4 +24,8 @@
 }
 .team-list__bio {
   padding: 15px;
+
+  @include media-query(sm) {
+    padding: 30px;
+  }
 }

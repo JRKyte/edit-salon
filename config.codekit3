@@ -883,6 +883,17 @@
 		"opt": 0,
 		"q": 100
 		},
+	"/images/Katie.jpg": {
+		"ft": 16384,
+		"iS": 92867,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/Katie.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/images/Laura.jpg": {
 		"ft": 16384,
 		"iS": 66202,
@@ -946,6 +957,17 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
+		"q": 100
+		},
+	"/images/Megan.jpg": {
+		"ft": 16384,
+		"iS": 74457,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/Megan.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
 		"q": 100
 		},
 	"/images/no_user.jpg": {
