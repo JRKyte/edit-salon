@@ -8,11 +8,9 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
-  margin-top: 48px;
   padding-left: 20px;
   padding-right: 20px;
   @include media-query(sm) {
-    margin-top: 80px;
     min-height: 500px;
     background-image: url('../images/hero.jpg');
   }
