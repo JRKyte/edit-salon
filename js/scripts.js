@@ -20,6 +20,12 @@ $(document).ready(function() {
     });
   });
 
+  // Animate booking button
+  setTimeout(function () {
+    $('.booking-cta').addClass('tada');
+  }, 1500);
+
+
   // Highlight day
   $('.times-item:eq(' + new Date().getDay()  + ')').addClass('active');
 

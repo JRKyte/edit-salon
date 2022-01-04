@@ -63,3 +63,27 @@ header {
     color: inherit;
   }
 }
+
+.booking-cta {
+  font-family: $heading-font;
+  text-transform: uppercase;
+  position: fixed;
+  right: 30px;
+  bottom: 30px;
+  z-index: 100;
+  display: block;
+  background-color: #B0966C;
+  color: white;
+  padding: 15px;
+  border-radius: 4px;
+  text-decoration: none;
+  font-size: 18px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, .25);
+  transition: transform .15s ease;
+  transform: translateY(200%);
+
+  &:hover,
+  &:focus {
+    transform: translateY(-5px);
+  }
+}
