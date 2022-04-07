@@ -797,6 +797,17 @@
 		"opt": 0,
 		"q": 100
 		},
+	"/images/Danielle.jpg": {
+		"ft": 16384,
+		"iS": 286576,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/Danielle.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/images/facebook.png": {
 		"ft": 32768,
 		"iS": 577,
